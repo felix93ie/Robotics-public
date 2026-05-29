@@ -1,0 +1,394 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Fast-CDR_ROOT
+    fastcdr_ROOT
+
+
+Cloning into 'microxrcedds_client'...
+Cloning into 'spdlog'...
+HEAD is now at 0c6743f Release v2.4.2
+Cloning into 'microcdr'...
+HEAD is now at eb322062 Bump version to 1.9.2
+HEAD is now at 3d1b177 Release v2.0.1
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/fmt.cpp:10:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format-inl.h:22:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:197:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:28:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:654:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/fmt.cpp:10:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format-inl.h:29:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/file_sinks.cpp:9:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper-inl.h:7:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper.h:6:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/spdlog.cpp:8:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog-inl.h:7:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/async.cpp:8:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/cfg.cpp:8:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers-inl.h:7:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers.h:6:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/file_sinks.cpp:9:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper-inl.h:7:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper.h:6:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/spdlog.cpp:8:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog-inl.h:7:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/color_sinks.cpp:8:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:508:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:152:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h:15:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:654:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/async.cpp:8:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/cfg.cpp:8:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers-inl.h:7:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers.h:6:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/stdout_sinks.cpp:8:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:508:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:152:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h:15:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:654:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/color_sinks.cpp:11:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/stdout_sinks.cpp:11:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+3 warnings generated.
+3 warnings generated.
+3 warnings generated.
+3 warnings generated.
+3 warnings generated.
+3 warnings generated.
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/session.c:21:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   54 | void uxr_handle_shared_memory();
+      |                              ^
+      |                               void
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   66 | void uxr_clean_shared_memory();
+      |                             ^
+      |                              void
+2 warnings generated.
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/create_entities_xml.c:5:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   54 | void uxr_handle_shared_memory();
+      |                              ^
+      |                               void
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   66 | void uxr_clean_shared_memory();
+      |                             ^
+      |                              void
+2 warnings generated.
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/create_entities_bin.c:6:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   54 | void uxr_handle_shared_memory();
+      |                              ^
+      |                               void
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   66 | void uxr_clean_shared_memory();
+      |                             ^
+      |                              void
+2 warnings generated.
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/write_access.c:12:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   54 | void uxr_handle_shared_memory();
+      |                              ^
+      |                               void
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   66 | void uxr_clean_shared_memory();
+      |                             ^
+      |                              void
+2 warnings generated.
+3 warnings generated.
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/example/example.cpp:24:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+   22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+      |                                         ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+  380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+      |                          ^~~~~
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+  476 |                                       S, detail::std_string_view<Char>>::value)>
+      |                                                  ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+  347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+      |                                           ^
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+  545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+      |                                                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+   24 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/example/example.cpp:24:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+      |                ~~~~~~~~~~~^~
+      |                operator""_a
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+ 2769 | constexpr auto operator"" _format(const char* s, size_t n)
+      |                ~~~~~~~~~~~^~~~~~~
+      |                operator""_format
+3 warnings generated.
+CMake Error at CMakeLists.txt:153 (find_package):
+  Could not find a configuration file for package "fastcdr" that is
+  compatible with requested version "1".
+
+  The following configuration files were considered but not accepted:
+
+    /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/cmake/fastcdr/fastcdr-config.cmake, version: 2.2.7
+      The version found is not compatible with the version requested.
+
+
+
+make[2]: *** [uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+make[1]: *** [CMakeFiles/uagent.dir/all] Error 2
+make: *** [all] Error 2

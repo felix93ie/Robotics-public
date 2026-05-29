@@ -1,0 +1,8 @@
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/microxrcedds_agent.dir
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/MicroXRCEAgent.dir
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/edit_cache.dir
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/rebuild_cache.dir
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/list_install_components.dir
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/install.dir
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/install/local.dir
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,14 @@
+# Target labels
+ fastdds
+# Source files and their labels
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastdds
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastdds.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastdds-complete.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-build.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-configure.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-download.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-install.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-mkdir.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-patch.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-test.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-update.rule

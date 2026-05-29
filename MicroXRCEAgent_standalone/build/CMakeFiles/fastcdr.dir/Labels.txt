@@ -1,0 +1,14 @@
+# Target labels
+ fastcdr
+# Source files and their labels
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastcdr
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastcdr.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastcdr-complete.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-build.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-download.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-install.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-test.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-update.rule

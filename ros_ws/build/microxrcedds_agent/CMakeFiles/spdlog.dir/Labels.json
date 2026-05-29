@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/CMakeFiles/spdlog"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/CMakeFiles/spdlog.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/CMakeFiles/spdlog-complete.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-build.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-configure.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-download.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-install.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-mkdir.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-patch.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog"
+		],
+		"name" : "spdlog"
+	}
+}

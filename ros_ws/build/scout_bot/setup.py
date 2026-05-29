@@ -1,0 +1,1 @@
+/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot/setup.py

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-build/cmake_install.cmake",
+		"/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-build/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

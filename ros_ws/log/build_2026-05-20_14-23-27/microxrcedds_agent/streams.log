@@ -1,0 +1,796 @@
+[0.021s] Invoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/Users/eduardofelix/scout_bot_mac/ros_ws/install/microxrcedds_agent
+[1.145s] -- The C compiler identification is AppleClang 21.0.0.21000099
+[1.180s] -- Detecting C compiler ABI info
+[1.455s] -- Detecting C compiler ABI info - done
+[1.476s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.477s] -- Detecting C compile features
+[1.478s] -- Detecting C compile features - done
+[1.607s] -- The CXX compiler identification is AppleClang 21.0.0.21000099
+[1.618s] -- Detecting CXX compiler ABI info
+[1.877s] -- Detecting CXX compiler ABI info - done
+[1.899s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.899s] -- Detecting CXX compile features
+[1.900s] -- Detecting CXX compile features - done
+[2.099s] -- Configuring done (1.9s)
+[2.119s] -- Generating done (0.0s)
+[2.124s] -- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent
+[2.129s] Invoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent' returned '0': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/Users/eduardofelix/scout_bot_mac/ros_ws/install/microxrcedds_agent
+[2.132s] Invoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8
+[2.259s] [  4%] Creating directories for 'microxrcedds_client'
+[2.321s] [  8%] Performing download step (git clone) for 'microxrcedds_client'
+[2.374s] Cloning into 'microxrcedds_client'...
+[3.655s] HEAD is now at 0c6743f Release v2.4.2
+[3.869s] [ 12%] Performing update step for 'microxrcedds_client'
+[3.921s] -- Already at requested tag: v2.4.2
+[3.946s] [ 16%] No patch step for 'microxrcedds_client'
+[4.022s] [ 20%] Performing configure step for 'microxrcedds_client'
+[4.059s] loading initial cache file /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/tmp/microxrcedds_client-cache-.cmake
+[4.359s] -- The C compiler identification is AppleClang 21.0.0.21000099
+[4.413s] -- Detecting C compiler ABI info
+[4.682s] -- Detecting C compiler ABI info - done
+[4.703s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.703s] -- Detecting C compile features
+[4.703s] -- Detecting C compile features - done
+[4.827s] -- The CXX compiler identification is AppleClang 21.0.0.21000099
+[4.844s] -- Detecting CXX compiler ABI info
+[5.113s] -- Detecting CXX compiler ABI info - done
+[5.136s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.137s] -- Detecting CXX compile features
+[5.137s] -- Detecting CXX compile features - done
+[5.237s] -- Configuring done (1.2s)
+[5.254s] -- Generating done (0.0s)
+[5.255s] -- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[5.310s] [ 25%] Performing build step for 'microxrcedds_client'
+[5.419s] [  6%] Creating directories for 'microcdr'
+[5.485s] [ 12%] Performing download step (git clone) for 'microcdr'
+[5.543s] Cloning into 'microcdr'...
+[6.054s] HEAD is now at 3d1b177 Release v2.0.1
+[6.265s] [ 18%] Performing update step for 'microcdr'
+[6.329s] -- Already at requested tag: v2.0.1
+[6.357s] [ 25%] No patch step for 'microcdr'
+[6.426s] [ 31%] Performing configure step for 'microcdr'
+[6.453s] loading initial cache file /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/tmp/microcdr-cache-.cmake
+[6.462s] -- Setting build type to 'Release' as none was specified.
+[6.674s] -- The C compiler identification is AppleClang 21.0.0.21000099
+[6.704s] -- Detecting C compiler ABI info
+[7.067s] -- Detecting C compiler ABI info - done
+[7.101s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.101s] -- Detecting C compile features
+[7.102s] -- Detecting C compile features - done
+[7.253s] -- The CXX compiler identification is AppleClang 21.0.0.21000099
+[7.263s] -- Detecting CXX compiler ABI info
+[7.533s] -- Detecting CXX compiler ABI info - done
+[7.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.556s] -- Detecting CXX compile features
+[7.557s] -- Detecting CXX compile features - done
+[7.580s] -- Configuring done (1.1s)
+[7.593s] -- Generating done (0.0s)
+[7.594s] -- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[7.651s] [ 37%] Performing build step for 'microcdr'
+[7.759s] [ 12%] Creating directories for 'ucdr'
+[7.822s] [ 25%] No download step for 'ucdr'
+[7.890s] [ 37%] No update step for 'ucdr'
+[7.953s] [ 50%] No patch step for 'ucdr'
+[8.015s] [ 62%] Performing configure step for 'ucdr'
+[8.040s] loading initial cache file /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[8.129s] -- Configuring done (0.1s)
+[8.141s] -- Generating done (0.0s)
+[8.141s] -- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/microcdr/src/microcdr-build
+[8.188s] [ 75%] Performing build step for 'ucdr'
+[8.298s] [ 16%] Building C object CMakeFiles/microcdr.dir/src/c/common.c.o
+[8.593s] [ 33%] Building C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o
+[8.693s] [ 50%] Building C object CMakeFiles/microcdr.dir/src/c/types/array.c.o
+[8.829s] [ 66%] Building C object CMakeFiles/microcdr.dir/src/c/types/string.c.o
+[9.023s] [ 83%] Building C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o
+[9.350s] [100%] Linking C shared library libmicrocdr.dylib
+[9.493s] [100%] Built target microcdr
+[9.558s] No install step for 'ucdr'
+[9.629s] Completed 'ucdr'
+[9.712s] Built target ucdr
+[9.784s] [ 43%] Performing install step for 'microcdr'
+[9.899s] [100%] Built target microcdr
+[9.946s] Install the project...
+[9.965s] -- Install configuration: "Release"
+[9.965s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.2.0.1.dylib
+[9.965s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.2.0.dylib
+[9.966s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/lib/libmicrocdr.dylib
+[9.966s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr
+[9.966s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/visibility.h
+[9.966s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/microcdr.h
+[9.967s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/include/ucdr/config.h
+[9.967s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+[9.968s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-release.cmake
+[9.968s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+[9.969s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/temp_install/microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake
+[10.020s] [ 50%] Completed 'microcdr'
+[10.103s] [ 50%] Built target microcdr
+[10.170s] [ 56%] Creating directories for 'uclient'
+[10.235s] [ 62%] No download step for 'uclient'
+[10.297s] [ 68%] No update step for 'uclient'
+[10.360s] [ 75%] No patch step for 'uclient'
+[10.425s] [ 81%] Performing configure step for 'uclient'
+[10.453s] loading initial cache file /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/tmp/uclient-cache-.cmake
+[10.534s] -- Setting build type to 'Release' as none was specified.
+[10.562s] -- Configuring done (0.1s)
+[10.583s] -- Generating done (0.0s)
+[10.584s] -- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build
+[10.633s] [ 87%] Performing build step for 'uclient'
+[10.740s] [  2%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o
+[10.809s] [  5%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o
+[10.877s] [  8%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o
+[10.923s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/session.c:21:
+[10.923s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[10.924s]    54 | void uxr_handle_shared_memory();
+[10.924s]       |                              ^
+[10.924s]       |                               void
+[10.924s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[10.924s]    66 | void uxr_clean_shared_memory();
+[10.924s]       |                             ^
+[10.924s]       |                              void
+[11.028s] 2 warnings generated.
+[11.056s] [ 11%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o
+[11.146s] [ 14%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o
+[11.216s] [ 17%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o
+[11.281s] [ 20%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o
+[11.564s] [ 23%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o
+[11.634s] [ 26%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o
+[11.704s] [ 29%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o
+[11.777s] [ 32%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o
+[11.884s] [ 35%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o
+[11.958s] [ 38%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o
+[12.040s] [ 41%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o
+[12.077s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/create_entities_xml.c:5:
+[12.077s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[12.077s]    54 | void uxr_handle_shared_memory();
+[12.077s]       |                              ^
+[12.077s]       |                               void
+[12.077s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[12.077s]    66 | void uxr_clean_shared_memory();
+[12.077s]       |                             ^
+[12.077s]       |                              void
+[12.097s] 2 warnings generated.
+[12.125s] [ 44%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o
+[12.162s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/create_entities_bin.c:6:
+[12.162s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[12.162s]    54 | void uxr_handle_shared_memory();
+[12.162s]       |                              ^
+[12.162s]       |                               void
+[12.162s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[12.162s]    66 | void uxr_clean_shared_memory();
+[12.163s]       |                             ^
+[12.163s]       |                              void
+[12.188s] 2 warnings generated.
+[12.215s] [ 47%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o
+[12.314s] [ 50%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o
+[12.358s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/write_access.c:12:
+[12.358s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:54:30: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[12.358s]    54 | void uxr_handle_shared_memory();
+[12.358s]       |                              ^
+[12.358s]       |                               void
+[12.358s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client/src/c/core/session/../../profile/shared_memory/shared_memory_internal.h:66:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+[12.359s]    66 | void uxr_clean_shared_memory();
+[12.359s]       |                             ^
+[12.359s]       |                              void
+[12.381s] 2 warnings generated.
+[12.409s] [ 52%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o
+[12.530s] [ 55%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o
+[12.627s] [ 58%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o
+[12.760s] [ 61%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o
+[12.921s] [ 64%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o
+[13.063s] [ 67%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o
+[13.171s] [ 70%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o
+[13.285s] [ 73%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o
+[13.424s] [ 76%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o
+[13.590s] [ 79%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o
+[13.716s] [ 82%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o
+[13.819s] [ 85%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o
+[13.914s] [ 88%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o
+[14.019s] [ 91%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o
+[14.169s] [ 94%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o
+[14.263s] [ 97%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o
+[14.391s] [100%] Linking C shared library libmicroxrcedds_client.dylib
+[14.924s] [100%] Built target microxrcedds_client
+[15.061s] No install step for 'uclient'
+[15.185s] Completed 'uclient'
+[15.313s] Built target uclient
+[15.438s] [ 29%] Performing install step for 'microxrcedds_client'
+[15.706s] [100%] Built target microxrcedds_client
+[15.765s] Install the project...
+[15.787s] -- Install configuration: "Release"
+[15.787s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.2.4.2.dylib
+[15.788s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.2.4.dylib
+[15.813s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.dylib
+[15.813s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client
+[15.813s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/client.h
+[15.814s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core
+[15.814s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type
+[15.814s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type/xrce_types.h
+[15.814s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication
+[15.815s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication/communication.h
+[15.815s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session
+[15.815s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/object_id.h
+[15.816s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/write_access.h
+[15.816s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session_info.h
+[15.817s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream
+[15.817s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_reliable_stream.h
+[15.817s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_storage.h
+[15.818s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/reliable_stream.h
+[15.818s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_reliable_stream.h
+[15.819s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[15.820s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[15.820s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/seq_num.h
+[15.820s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_id.h
+[15.821s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/time_sync.h
+[15.821s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_bin.h
+[15.822s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session.h
+[15.822s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_ref.h
+[15.823s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/common_create_entities.h
+[15.823s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_xml.h
+[15.823s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/read_access.h
+[15.824s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util
+[15.824s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/time.h
+[15.825s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/ping.h
+[15.825s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/defines.h
+[15.826s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile
+[15.826s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport
+[15.826s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can
+[15.826s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport.h
+[15.827s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport_posix.h
+[15.827s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing
+[15.827s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[15.828s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip
+[15.828s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp
+[15.828s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[15.829s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[15.829s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[15.829s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[15.830s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[15.830s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[15.831s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp
+[15.831s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[15.831s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[15.832s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[15.832s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[15.833s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[15.833s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[15.834s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/ip.h
+[15.834s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom
+[15.834s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom/custom_transport.h
+[15.835s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial
+[15.835s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[15.835s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport.h
+[15.836s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[15.836s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[15.837s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery
+[15.837s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery/discovery.h
+[15.837s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread
+[15.837s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread/multithread.h
+[15.838s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/transport.h
+[15.838s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/visibility.h
+[15.839s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/config.h
+[15.839s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[15.840s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[15.841s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[15.841s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[15.842s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1
+[15.842s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include
+[15.842s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr
+[15.843s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/config.h
+[15.843s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/visibility.h
+[15.844s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/include/ucdr/microcdr.h
+[15.844s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib
+[15.845s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.2.0.1.dylib
+[15.845s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.dylib
+[15.845s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/lib/libmicrocdr.2.0.dylib
+[15.846s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share
+[15.846s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr
+[15.846s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake
+[15.846s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrTargets-release.cmake
+[15.846s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrConfigVersion.cmake
+[15.847s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrConfig.cmake
+[15.847s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/..//microcdr-2.0.1/share/microcdr/cmake/microcdrTargets.cmake
+[15.906s] [ 33%] Completed 'microxrcedds_client'
+[15.999s] [ 33%] Built target microxrcedds_client
+[16.063s] [ 37%] Creating directories for 'spdlog'
+[16.131s] [ 41%] Performing download step (git clone) for 'spdlog'
+[16.215s] Cloning into 'spdlog'...
+[19.342s] HEAD is now at eb322062 Bump version to 1.9.2
+[19.554s] [ 45%] Performing update step for 'spdlog'
+[19.606s] -- Already at requested tag: v1.9.2
+[19.631s] [ 50%] No patch step for 'spdlog'
+[19.692s] [ 54%] Performing configure step for 'spdlog'
+[19.716s] loading initial cache file /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/tmp/spdlog-cache-.cmake
+[20.476s] -- The CXX compiler identification is AppleClang 21.0.0.21000099
+[20.542s] -- Detecting CXX compiler ABI info
+[20.834s] -- Detecting CXX compiler ABI info - done
+[20.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[20.857s] -- Detecting CXX compile features
+[20.859s] -- Detecting CXX compile features - done
+[20.862s] -- Build spdlog: 1.9.2
+[20.869s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[21.174s] -- Found Threads: TRUE
+[21.174s] -- Build type: Release
+[21.175s] -- Generating example(s)
+[21.175s] -- Generating install
+[21.191s] -- Configuring done (1.5s)
+[21.215s] -- Generating done (0.0s)
+[21.216s] -- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog-build
+[21.270s] [ 58%] Performing build step for 'spdlog'
+[21.376s] [ 10%] Building CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[21.934s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/spdlog.cpp:8:
+[21.934s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog-inl.h:7:
+[21.934s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+[21.934s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+[21.934s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+[21.935s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[21.935s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[21.935s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[21.935s]       |                                         ^
+[21.935s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[21.935s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[21.935s]       |                          ^~~~~
+[21.935s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[21.935s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[21.936s]       |                                                  ^
+[21.936s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[21.936s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[21.936s]       |                                           ^
+[21.936s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[21.936s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[21.936s]       |                                                         ^
+[21.936s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[21.936s]    24 | struct _LIBCPP_DEPRECATED_(
+[21.936s]       |        ^
+[21.936s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[21.936s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[21.936s]       |                                                     ^
+[21.951s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/spdlog.cpp:8:
+[21.951s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog-inl.h:7:
+[21.951s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+[21.951s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+[21.951s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+[21.951s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[21.951s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[21.951s]       |                ~~~~~~~~~~~^~
+[21.951s]       |                operator""_a
+[21.951s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[21.951s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[21.952s]       |                ~~~~~~~~~~~^~~~~~~
+[21.952s]       |                operator""_format
+[25.426s] 3 warnings generated.
+[25.477s] [ 20%] Building CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o
+[26.142s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/fmt.cpp:10:
+[26.142s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format-inl.h:22:
+[26.142s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:197:
+[26.142s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:28:
+[26.142s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:654:
+[26.142s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[26.142s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[26.143s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[26.143s]       |                                         ^
+[26.143s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[26.143s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[26.143s]       |                          ^~~~~
+[26.143s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[26.143s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[26.144s]       |                                                  ^
+[26.144s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[26.144s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[26.144s]       |                                           ^
+[26.144s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[26.144s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[26.144s]       |                                                         ^
+[26.144s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[26.145s]    24 | struct _LIBCPP_DEPRECATED_(
+[26.145s]       |        ^
+[26.145s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[26.145s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[26.145s]       |                                                     ^
+[26.167s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/fmt.cpp:10:
+[26.167s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format-inl.h:29:
+[26.167s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[26.167s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[26.167s]       |                ~~~~~~~~~~~^~
+[26.167s]       |                operator""_a
+[26.168s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[26.168s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[26.168s]       |                ~~~~~~~~~~~^~~~~~~
+[26.169s]       |                operator""_format
+[28.445s] 3 warnings generated.
+[28.477s] [ 30%] Building CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[28.916s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/cfg.cpp:8:
+[28.916s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers-inl.h:7:
+[28.916s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers.h:6:
+[28.916s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+[28.917s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+[28.917s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[28.917s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[28.917s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[28.917s]       |                                         ^
+[28.917s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[28.917s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[28.917s]       |                          ^~~~~
+[28.917s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[28.917s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[28.917s]       |                                                  ^
+[28.918s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[28.918s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[28.918s]       |                                           ^
+[28.918s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[28.918s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[28.918s]       |                                                         ^
+[28.918s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[28.918s]    24 | struct _LIBCPP_DEPRECATED_(
+[28.918s]       |        ^
+[28.918s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[28.919s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[28.919s]       |                                                     ^
+[28.936s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/cfg.cpp:8:
+[28.936s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers-inl.h:7:
+[28.936s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/cfg/helpers.h:6:
+[28.936s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+[28.936s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+[28.937s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[28.937s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[28.937s]       |                ~~~~~~~~~~~^~
+[28.937s]       |                operator""_a
+[28.937s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[28.937s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[28.937s]       |                ~~~~~~~~~~~^~~~~~~
+[28.937s]       |                operator""_format
+[29.480s] 3 warnings generated.
+[29.522s] [ 40%] Building CXX object CMakeFiles/spdlog.dir/src/async.cpp.o
+[29.971s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/async.cpp:8:
+[29.971s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+[29.971s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+[29.971s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+[29.971s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+[29.971s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+[29.971s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[29.971s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[29.971s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[29.971s]       |                                         ^
+[29.972s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[29.972s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[29.972s]       |                          ^~~~~
+[29.972s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[29.972s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[29.972s]       |                                                  ^
+[29.972s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[29.972s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[29.972s]       |                                           ^
+[29.972s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[29.972s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[29.972s]       |                                                         ^
+[29.973s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[29.973s]    24 | struct _LIBCPP_DEPRECATED_(
+[29.973s]       |        ^
+[29.973s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[29.973s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[29.973s]       |                                                     ^
+[29.987s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/async.cpp:8:
+[29.987s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+[29.987s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+[29.987s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+[29.987s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+[29.987s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+[29.987s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[29.987s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[29.988s]       |                ~~~~~~~~~~~^~
+[29.988s]       |                operator""_a
+[29.988s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[29.988s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[29.988s]       |                ~~~~~~~~~~~^~~~~~~
+[29.988s]       |                operator""_format
+[30.422s] 3 warnings generated.
+[30.450s] [ 50%] Building CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[30.821s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/file_sinks.cpp:9:
+[30.821s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper-inl.h:7:
+[30.821s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper.h:6:
+[30.822s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+[30.822s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+[30.822s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[30.822s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[30.822s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[30.822s]       |                                         ^
+[30.822s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[30.822s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[30.822s]       |                          ^~~~~
+[30.822s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[30.822s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[30.822s]       |                                                  ^
+[30.822s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[30.822s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[30.823s]       |                                           ^
+[30.823s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[30.823s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[30.823s]       |                                                         ^
+[30.823s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[30.823s]    24 | struct _LIBCPP_DEPRECATED_(
+[30.823s]       |        ^
+[30.823s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[30.823s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[30.823s]       |                                                     ^
+[30.836s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/file_sinks.cpp:9:
+[30.836s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper-inl.h:7:
+[30.836s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/details/file_helper.h:6:
+[30.836s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+[30.836s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+[30.836s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[30.836s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[30.836s]       |                ~~~~~~~~~~~^~
+[30.836s]       |                operator""_a
+[30.836s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[30.836s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[30.836s]       |                ~~~~~~~~~~~^~~~~~~
+[30.837s]       |                operator""_format
+[31.133s] 3 warnings generated.
+[31.165s] [ 60%] Building CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[31.533s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/color_sinks.cpp:8:
+[31.534s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:508:
+[31.534s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:152:
+[31.534s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h:15:
+[31.534s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:654:
+[31.534s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[31.534s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[31.534s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[31.534s]       |                                         ^
+[31.534s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[31.534s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[31.534s]       |                          ^~~~~
+[31.534s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[31.534s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[31.535s]       |                                                  ^
+[31.535s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[31.535s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[31.535s]       |                                           ^
+[31.535s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[31.535s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[31.535s]       |                                                         ^
+[31.535s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[31.535s]    24 | struct _LIBCPP_DEPRECATED_(
+[31.535s]       |        ^
+[31.535s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[31.535s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[31.535s]       |                                                     ^
+[31.547s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/color_sinks.cpp:11:
+[31.547s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+[31.547s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+[31.547s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+[31.548s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+[31.548s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+[31.548s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[31.548s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[31.548s]       |                ~~~~~~~~~~~^~
+[31.548s]       |                operator""_a
+[31.548s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[31.548s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[31.548s]       |                ~~~~~~~~~~~^~~~~~~
+[31.548s]       |                operator""_format
+[32.006s] 3 warnings generated.
+[32.038s] [ 70%] Building CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[32.403s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/stdout_sinks.cpp:8:
+[32.403s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:508:
+[32.403s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:152:
+[32.404s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h:15:
+[32.404s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:654:
+[32.404s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[32.404s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[32.404s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[32.404s]       |                                         ^
+[32.404s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[32.404s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[32.404s]       |                          ^~~~~
+[32.404s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[32.404s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[32.404s]       |                                                  ^
+[32.404s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[32.404s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[32.405s]       |                                           ^
+[32.405s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[32.405s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[32.405s]       |                                                         ^
+[32.405s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[32.405s]    24 | struct _LIBCPP_DEPRECATED_(
+[32.405s]       |        ^
+[32.405s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[32.405s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[32.405s]       |                                                     ^
+[32.418s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/src/stdout_sinks.cpp:11:
+[32.418s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async.h:17:
+[32.418s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/async_logger.h:17:
+[32.418s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/logger.h:17:
+[32.418s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+[32.418s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+[32.418s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[32.418s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[32.418s]       |                ~~~~~~~~~~~^~
+[32.418s]       |                operator""_a
+[32.418s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[32.418s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[32.418s]       |                ~~~~~~~~~~~^~~~~~~
+[32.419s]       |                operator""_format
+[32.833s] 3 warnings generated.
+[32.866s] [ 80%] Linking CXX static library libspdlog.a
+[33.183s] [ 80%] Built target spdlog
+[33.239s] [ 90%] Building CXX object example/CMakeFiles/example.dir/example.cpp.o
+[33.610s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/example/example.cpp:24:
+[33.610s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+[33.610s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:10:
+[33.610s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:1107:
+[33.610s] In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:221:
+[33.610s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:22:41: warning: 'char_traits<fmt::detail::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in a future release, so please migrate off of it. [-Wdeprecated-declarations]
+[33.610s]    22 | template <class _CharT, class _Traits = char_traits<_CharT> >
+[33.610s]       |                                         ^
+[33.610s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:380:26: note: in instantiation of default argument for 'basic_string_view<fmt::detail::char8_type>' required here
+[33.610s]   380 | template <typename Char> using std_string_view = std::basic_string_view<Char>;
+[33.611s]       |                          ^~~~~
+[33.611s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:476:50: note: in instantiation of template type alias 'std_string_view' requested here
+[33.611s]   476 |                                       S, detail::std_string_view<Char>>::value)>
+[33.611s]       |                                                  ^
+[33.611s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/core.h:347:43: note: expanded from macro 'FMT_ENABLE_IF'
+[33.611s]   347 | #  define FMT_ENABLE_IF(...) enable_if_t<(__VA_ARGS__), int> = 0
+[33.611s]       |                                           ^
+[33.611s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:545:57: note: in instantiation of template class 'fmt::basic_string_view<fmt::detail::char8_type>' requested here
+[33.611s]   545 | inline auto compute_width(basic_string_view<char8_type> s) -> size_t {
+[33.611s]       |                                                         ^
+[33.611s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h:24:8: note: 'char_traits<fmt::detail::char8_type>' has been explicitly marked deprecated here
+[33.611s]    24 | struct _LIBCPP_DEPRECATED_(
+[33.611s]       |        ^
+[33.611s] /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:555:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+[33.611s]   555 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+[33.611s]       |                                                     ^
+[33.624s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/example/example.cpp:24:
+[33.624s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/spdlog.h:12:
+[33.624s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/common.h:36:
+[33.624s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/fmt.h:23:
+[33.624s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2754:27: warning: identifier '_a' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[33.624s]  2754 | constexpr auto operator"" _a(const char* s, size_t) -> detail::udl_arg<char> {
+[33.624s]       |                ~~~~~~~~~~~^~
+[33.624s]       |                operator""_a
+[33.624s] /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/spdlog/src/spdlog/include/spdlog/fmt/bundled/format.h:2769:27: warning: identifier '_format' preceded by whitespace in a literal operator declaration is deprecated [-Wdeprecated-literal-operator]
+[33.624s]  2769 | constexpr auto operator"" _format(const char* s, size_t n)
+[33.624s]       |                ~~~~~~~~~~~^~~~~~~
+[33.625s]       |                operator""_format
+[35.451s] 3 warnings generated.
+[35.482s] [100%] Linking CXX executable example
+[35.609s] [100%] Built target example
+[35.681s] [ 62%] Performing install step for 'spdlog'
+[35.866s] [ 80%] Built target spdlog
+[35.945s] [100%] Built target example
+[35.993s] Install the project...
+[36.012s] -- Install configuration: "Release"
+[36.012s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include
+[36.012s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog
+[36.012s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h
+[36.013s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fwd.h
+[36.013s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/version.h
+[36.013s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h
+[36.014s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt
+[36.014s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h
+[36.014s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h
+[36.015s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h
+[36.015s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h
+[36.016s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h
+[36.016s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h
+[36.016s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h
+[36.017s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks
+[36.017s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h
+[36.017s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h
+[36.018s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h
+[36.018s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h
+[36.018s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h
+[36.019s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h
+[36.019s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h
+[36.020s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h
+[36.020s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h
+[36.020s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h
+[36.021s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h
+[36.021s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h
+[36.022s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h
+[36.022s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h
+[36.022s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h
+[36.023s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h
+[36.023s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h
+[36.023s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h
+[36.024s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h
+[36.024s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h
+[36.025s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h
+[36.025s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h
+[36.026s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h
+[36.026s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h
+[36.026s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h
+[36.027s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h
+[36.027s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h
+[36.027s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h
+[36.028s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h
+[36.028s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h
+[36.029s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h
+[36.029s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/formatter.h
+[36.029s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h
+[36.030s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details
+[36.030s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h
+[36.030s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h
+[36.031s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h
+[36.031s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h
+[36.031s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h
+[36.032s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h
+[36.032s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os.h
+[36.033s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h
+[36.033s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h
+[36.033s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h
+[36.034s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h
+[36.034s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h
+[36.034s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h
+[36.035s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h
+[36.035s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h
+[36.036s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h
+[36.036s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h
+[36.036s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h
+[36.037s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h
+[36.037s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h
+[36.037s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h
+[36.038s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h
+[36.038s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h
+[36.038s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h
+[36.039s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h
+[36.039s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h
+[36.040s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg
+[36.040s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h
+[36.040s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h
+[36.041s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h
+[36.041s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h
+[36.041s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h
+[36.042s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async.h
+[36.042s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/common.h
+[36.042s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h
+[36.043s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h
+[36.043s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h
+[36.044s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/logger.h
+[36.044s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h
+[36.045s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/libspdlog.a
+[36.070s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/
+[36.070s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h
+[36.071s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h
+[36.071s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h
+[36.071s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h
+[36.072s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h
+[36.072s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h
+[36.072s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h
+[36.073s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h
+[36.073s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h
+[36.074s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h
+[36.074s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h
+[36.074s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h
+[36.075s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h
+[36.075s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc
+[36.076s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[36.077s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[36.077s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake
+[36.078s] -- Installing: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[36.130s] [ 66%] Completed 'spdlog'
+[36.210s] [ 66%] Built target spdlog
+[36.266s] [ 70%] Creating directories for 'uagent'
+[36.328s] [ 75%] No download step for 'uagent'
+[36.388s] [ 79%] No update step for 'uagent'
+[36.448s] [ 83%] No patch step for 'uagent'
+[36.508s] [ 87%] Performing configure step for 'uagent'
+[36.532s] loading initial cache file /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake
+[36.624s] -- Setting build type to 'Release' as none was specified.
+[36.672s] CMake Error at CMakeLists.txt:153 (find_package):
+[36.672s]   Could not find a configuration file for package "fastcdr" that is
+[36.672s]   compatible with requested version "1".
+[36.672s] 
+[36.672s]   The following configuration files were considered but not accepted:
+[36.672s] 
+[36.672s]     /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/cmake/fastcdr/fastcdr-config.cmake, version: 2.2.7
+[36.672s]       The version found is not compatible with the version requested.
+[36.672s] 
+[36.672s] 
+[36.673s] 
+[36.673s] -- Configuring incomplete, errors occurred!
+[36.678s] make[2]: *** [uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+[36.678s] make[1]: *** [CMakeFiles/uagent.dir/all] Error 2
+[36.678s] make: *** [all] Error 2
+[36.681s] Invoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent' returned '2': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8

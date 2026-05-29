@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/scout_bot/scout_bot.egg-info/PKG-INFO
+writing dependency_links to ../../build/scout_bot/scout_bot.egg-info/dependency_links.txt
+writing entry points to ../../build/scout_bot/scout_bot.egg-info/entry_points.txt
+writing requirements to ../../build/scout_bot/scout_bot.egg-info/requires.txt
+writing top-level names to ../../build/scout_bot/scout_bot.egg-info/top_level.txt
+reading manifest file '../../build/scout_bot/scout_bot.egg-info/SOURCES.txt'
+writing manifest file '../../build/scout_bot/scout_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying scout_bot/__init__.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+copying scout_bot/offboard_control.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+copying scout_bot/tmc_node.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+running install
+running install_lib
+copying /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot/tmc_node.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot
+byte-compiling /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot/tmc_node.py to tmc_node.cpython-312.pyc
+running install_data
+copying resource/scout_bot -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/ament_index/resource_index/packages
+copying package.xml -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot
+creating /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/config
+copying config/mission_config.yaml -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/config
+running install_egg_info
+removing '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/scout_bot/scout_bot.egg-info to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing offboard_control script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+Installing tmc_node script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+writing list of installed files to '/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/install.log'

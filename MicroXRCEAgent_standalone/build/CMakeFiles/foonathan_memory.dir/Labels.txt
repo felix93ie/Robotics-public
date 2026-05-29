@@ -1,0 +1,13 @@
+# Target labels
+ foonathan_memory
+# Source files and their labels
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/foonathan_memory
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/foonathan_memory.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/foonathan_memory-complete.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-build.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-configure.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-download.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-install.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-mkdir.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-patch.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/foonathan_memory/src/foonathan_memory-stamp/foonathan_memory-update.rule

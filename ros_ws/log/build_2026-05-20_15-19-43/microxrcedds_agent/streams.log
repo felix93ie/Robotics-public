@@ -1,0 +1,777 @@
+[0.034s] Invoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8
+[0.547s] -- Found TinyXML2: /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/cmake/tinyxml2
+[3.153s] -- Found OpenSSL: /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libcrypto.dylib (found version "3.6.2")
+[3.183s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.753s] -- Found Threads: TRUE
+[4.773s] -- Configuring done (4.5s)
+[5.182s] -- Generating done (0.4s)
+[5.194s] -- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent
+[5.306s] [  2%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o
+[5.309s] [  4%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o
+[5.310s] [  6%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o
+[5.316s] [ 10%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o
+[5.316s] [ 10%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o
+[5.316s] [ 12%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o
+[5.319s] [ 14%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o
+[5.320s] [ 16%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o
+[9.211s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/publisher/Publisher.cpp:16:
+[9.211s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.212s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.212s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.213s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[9.214s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.214s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.215s]       |                               ~~~~~~~~~~~~~ ^
+[9.218s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.218s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.218s]       |                                                                    ~~~~~~~~~~~~~ ^
+[9.218s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.218s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[9.218s]       |                                       ~~~~~~~~~~~~~ ^
+[9.219s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[9.219s]   108 |             deserializer_.changeEndianness(endianness);
+[9.219s]       |             ~~~~~~~~~~~~~ ^
+[9.219s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.219s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.220s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[9.220s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.220s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.220s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[9.220s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.220s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.221s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[9.221s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.221s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.222s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[9.222s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.222s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.223s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[9.223s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.223s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.224s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[9.239s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[9.239s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[9.240s]       |             ~~~~~~~~~~~~~ ^
+[9.255s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/publisher/Publisher.cpp:16:
+[9.255s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.256s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.256s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.256s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[9.259s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.259s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[9.259s]       |                                     ~~~~~~~~~~~ ^
+[9.259s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.259s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[9.260s]       |             ~~~~~~~~~~~ ^
+[9.262s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.262s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.263s]       |                             ~~~~~~~~~~~ ^
+[9.263s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.272s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.272s]       |                                                                ~~~~~~~~~~~ ^
+[9.278s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.279s]   143 |             serializer_.serializeArray(buf, len);
+[9.279s]       |             ~~~~~~~~~~~ ^
+[9.279s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.280s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.280s]       |                             ~~~~~~~~~~~ ^
+[9.280s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.281s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.281s]       |                                                                ~~~~~~~~~~~ ^
+[9.308s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/Agent.cpp:16:
+[9.308s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/Root.hpp:18:
+[9.308s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.309s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.314s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.314s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[9.314s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.332s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.332s]       |                               ~~~~~~~~~~~~~ ^
+[9.355s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.355s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.356s]       |                                                                    ~~~~~~~~~~~~~ ^
+[9.356s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.356s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[9.356s]       |                                       ~~~~~~~~~~~~~ ^
+[9.356s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[9.356s]   108 |             deserializer_.changeEndianness(endianness);
+[9.356s]       |             ~~~~~~~~~~~~~ ^
+[9.356s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.357s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.357s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[9.358s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.358s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.358s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[9.358s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.358s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.358s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[9.358s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.360s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.360s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[9.360s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.360s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.360s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[9.360s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.361s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.361s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[9.361s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[9.362s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[9.362s]       |             ~~~~~~~~~~~~~ ^
+[9.362s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/Agent.cpp:16:
+[9.362s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/Root.hpp:18:
+[9.362s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.362s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.362s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.362s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[9.362s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.363s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[9.363s]       |                                     ~~~~~~~~~~~ ^
+[9.363s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.369s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[9.369s]       |             ~~~~~~~~~~~ ^
+[9.369s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.369s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.369s]       |                             ~~~~~~~~~~~ ^
+[9.369s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.371s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.372s]       |                                                                ~~~~~~~~~~~ ^
+[9.372s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.372s]   143 |             serializer_.serializeArray(buf, len);
+[9.372s]       |             ~~~~~~~~~~~ ^
+[9.373s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.373s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.373s]       |                             ~~~~~~~~~~~ ^
+[9.373s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.373s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.374s]       |                                                                ~~~~~~~~~~~ ^
+[9.500s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/client/ProxyClient.cpp:15:
+[9.500s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.500s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.501s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.501s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[9.501s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.502s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.502s]       |                               ~~~~~~~~~~~~~ ^
+[9.502s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.502s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.502s]       |                                                                    ~~~~~~~~~~~~~ ^
+[9.502s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.502s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[9.503s]       |                                       ~~~~~~~~~~~~~ ^
+[9.503s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[9.503s]   108 |             deserializer_.changeEndianness(endianness);
+[9.504s]       |             ~~~~~~~~~~~~~ ^
+[9.504s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.504s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.504s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[9.504s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.505s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.505s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[9.505s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.505s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.505s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[9.505s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.506s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.506s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[9.506s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.506s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.513s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[9.513s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.513s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.513s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[9.656s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[9.656s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[9.656s]       |             ~~~~~~~~~~~~~ ^
+[9.656s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/client/ProxyClient.cpp:15:
+[9.663s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.663s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.663s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.667s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[9.667s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.667s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[9.668s]       |                                     ~~~~~~~~~~~ ^
+[9.668s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.669s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[9.669s]       |             ~~~~~~~~~~~ ^
+[9.669s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.670s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.670s]       |                             ~~~~~~~~~~~ ^
+[9.670s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.670s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.670s]       |                                                                ~~~~~~~~~~~ ^
+[9.670s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.670s]   143 |             serializer_.serializeArray(buf, len);
+[9.670s]       |             ~~~~~~~~~~~ ^
+[9.670s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.671s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.671s]       |                             ~~~~~~~~~~~ ^
+[9.671s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.671s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.671s]       |                                                                ~~~~~~~~~~~ ^
+[9.817s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/topic/Topic.cpp:17:
+[9.818s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.818s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.818s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.818s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[9.818s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.819s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.819s]       |                               ~~~~~~~~~~~~~ ^
+[9.819s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.820s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.820s]       |                                                                    ~~~~~~~~~~~~~ ^
+[9.820s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.820s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[9.823s]       |                                       ~~~~~~~~~~~~~ ^
+[9.824s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[9.825s]   108 |             deserializer_.changeEndianness(endianness);
+[9.825s]       |             ~~~~~~~~~~~~~ ^
+[9.825s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.825s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.827s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[9.832s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.833s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.834s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[9.834s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.834s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.834s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[9.851s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.851s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.852s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[9.852s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.852s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.852s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[9.853s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.853s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.853s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[9.854s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[9.854s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[9.854s]       |             ~~~~~~~~~~~~~ ^
+[9.859s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/topic/Topic.cpp:17:
+[9.864s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.865s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.865s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.865s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[9.865s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.865s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[9.866s]       |                                     ~~~~~~~~~~~ ^
+[9.866s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.866s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[9.866s]       |             ~~~~~~~~~~~ ^
+[9.866s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.866s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.866s]       |                             ~~~~~~~~~~~ ^
+[9.866s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.866s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.867s]       |                                                                ~~~~~~~~~~~ ^
+[9.867s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.868s]   143 |             serializer_.serializeArray(buf, len);
+[9.868s]       |             ~~~~~~~~~~~ ^
+[9.869s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.869s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.870s]       |                             ~~~~~~~~~~~ ^
+[9.870s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.870s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.870s]       |                                                                ~~~~~~~~~~~ ^
+[9.871s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/participant/Participant.cpp:16:
+[9.871s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.875s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.876s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.876s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[9.881s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.882s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.882s]       |                               ~~~~~~~~~~~~~ ^
+[9.883s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.885s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[9.886s]       |                                                                    ~~~~~~~~~~~~~ ^
+[9.886s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.886s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[9.886s]       |                                       ~~~~~~~~~~~~~ ^
+[9.887s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[9.888s]   108 |             deserializer_.changeEndianness(endianness);
+[9.889s]       |             ~~~~~~~~~~~~~ ^
+[9.889s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.889s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.891s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[9.892s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.893s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.894s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[9.895s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.895s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.895s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[9.895s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.896s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.896s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[9.896s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.896s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[9.896s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[9.896s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.896s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[9.897s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[9.897s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[9.897s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[9.897s]       |             ~~~~~~~~~~~~~ ^
+[9.897s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/participant/Participant.cpp:16:
+[9.897s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[9.898s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[9.898s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[9.898s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[9.898s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[9.898s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[9.898s]       |                                     ~~~~~~~~~~~ ^
+[9.898s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.898s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[9.898s]       |             ~~~~~~~~~~~ ^
+[9.899s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.899s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.899s]       |                             ~~~~~~~~~~~ ^
+[9.899s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.899s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.899s]       |                                                                ~~~~~~~~~~~ ^
+[9.899s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[9.899s]   143 |             serializer_.serializeArray(buf, len);
+[9.899s]       |             ~~~~~~~~~~~ ^
+[9.899s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[9.900s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.900s]       |                             ~~~~~~~~~~~ ^
+[9.902s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[9.912s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[9.912s]       |                                                                ~~~~~~~~~~~ ^
+[9.960s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/processor/Processor.cpp:20:
+[9.960s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/Root.hpp:18:
+[9.992s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[10.036s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[10.037s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[10.037s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[10.037s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.038s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[10.038s]       |                               ~~~~~~~~~~~~~ ^
+[10.038s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.039s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[10.040s]       |                                                                    ~~~~~~~~~~~~~ ^
+[10.041s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.042s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[10.042s]       |                                       ~~~~~~~~~~~~~ ^
+[10.044s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[10.044s]   108 |             deserializer_.changeEndianness(endianness);
+[10.047s]       |             ~~~~~~~~~~~~~ ^
+[10.047s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.047s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.047s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[10.047s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.047s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.047s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[10.047s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.048s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[10.049s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[10.049s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.049s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.050s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[10.054s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.055s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.055s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[10.056s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.056s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[10.057s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[10.057s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[10.057s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[10.058s]       |             ~~~~~~~~~~~~~ ^
+[10.058s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/processor/Processor.cpp:20:
+[10.058s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/Root.hpp:18:
+[10.058s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[10.058s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[10.058s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[10.059s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[10.061s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.061s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[10.061s]       |                                     ~~~~~~~~~~~ ^
+[10.062s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[10.062s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[10.062s]       |             ~~~~~~~~~~~ ^
+[10.062s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.062s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.062s]       |                             ~~~~~~~~~~~ ^
+[10.062s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.062s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.063s]       |                                                                ~~~~~~~~~~~ ^
+[10.063s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[10.063s]   143 |             serializer_.serializeArray(buf, len);
+[10.064s]       |             ~~~~~~~~~~~ ^
+[10.064s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.064s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.064s]       |                             ~~~~~~~~~~~ ^
+[10.064s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.064s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.064s]       |                                                                ~~~~~~~~~~~ ^
+[10.324s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/Root.cpp:15:
+[10.324s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/Root.hpp:18:
+[10.324s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[10.324s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[10.325s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[10.325s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[10.325s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.325s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[10.325s]       |                               ~~~~~~~~~~~~~ ^
+[10.326s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.327s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[10.327s]       |                                                                    ~~~~~~~~~~~~~ ^
+[10.327s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.327s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[10.327s]       |                                       ~~~~~~~~~~~~~ ^
+[10.327s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[10.328s]   108 |             deserializer_.changeEndianness(endianness);
+[10.328s]       |             ~~~~~~~~~~~~~ ^
+[10.328s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.328s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.328s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[10.328s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.328s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.328s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[10.328s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.328s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[10.329s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[10.329s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.329s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.329s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[10.329s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.329s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.329s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[10.330s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.330s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[10.330s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[10.330s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[10.330s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[10.330s]       |             ~~~~~~~~~~~~~ ^
+[10.331s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/Root.cpp:15:
+[10.331s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/Root.hpp:18:
+[10.331s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[10.331s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:19:
+[10.331s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/InputStream.hpp:19:
+[10.331s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[10.332s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.332s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[10.332s]       |                                     ~~~~~~~~~~~ ^
+[10.332s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[10.332s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[10.332s]       |             ~~~~~~~~~~~ ^
+[10.332s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.332s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.332s]       |                             ~~~~~~~~~~~ ^
+[10.333s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.333s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.333s]       |                                                                ~~~~~~~~~~~ ^
+[10.333s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[10.333s]   143 |             serializer_.serializeArray(buf, len);
+[10.333s]       |             ~~~~~~~~~~~ ^
+[10.333s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.333s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.334s]       |                             ~~~~~~~~~~~ ^
+[10.334s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.334s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.334s]       |                                                                ~~~~~~~~~~~ ^
+[10.805s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:16:
+[10.806s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/AgentInstance.hpp:20:
+[10.806s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/utils/ArgumentParser.hpp:24:
+[10.806s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/Server.hpp:22:
+[10.806s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:18:
+[10.806s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:45: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.806s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[10.807s]       |                               ~~~~~~~~~~~~~ ^
+[10.807s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:99:82: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.807s]    99 |     deserializer_.jump((4 - ((deserializer_.getCurrentPosition() - deserializer_.getBufferPointer()) & 3)) & 3);
+[10.808s]       |                                                                    ~~~~~~~~~~~~~ ^
+[10.811s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:100:53: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.812s]   100 |     if (fastbuffer_.getBufferSize() > deserializer_.getSerializedDataLength())
+[10.812s]       |                                       ~~~~~~~~~~~~~ ^
+[10.812s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:108:27: error: no member named 'changeEndianness' in 'eprosima::fastcdr::Cdr'
+[10.812s]   108 |             deserializer_.changeEndianness(endianness);
+[10.813s]       |             ~~~~~~~~~~~~~ ^
+[10.813s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:59: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.813s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.813s]       |                                        ~~~~~~~~~~~~~~~~~~ ^
+[10.813s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:127:101: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.813s]   127 |         local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.813s]       |                                                                                  ~~~~~~~~~~~~~~~~~~ ^
+[10.815s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:128:62: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.815s]   128 |         if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[10.816s]       |                                           ~~~~~~~~~~~~~~~~~~ ^
+[10.816s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:55: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.816s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.816s]       |                                    ~~~~~~~~~~~~~~~~~~ ^
+[10.817s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:155:97: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.817s]   155 |     local_deserializer.jump((4 - ((local_deserializer.getCurrentPosition() - local_deserializer.getBufferPointer()) & 3)) & 3);
+[10.817s]       |                                                                              ~~~~~~~~~~~~~~~~~~ ^
+[10.817s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:156:58: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.817s]   156 |     if (fastbuffer_.getBufferSize() > local_deserializer.getSerializedDataLength())
+[10.818s]       |                                       ~~~~~~~~~~~~~~~~~~ ^
+[10.818s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/InputMessage.hpp:194:27: error: no member named 'deserializeArray' in 'eprosima::fastcdr::Cdr'
+[10.818s]   194 |             deserializer_.deserializeArray(buf, subheader_.submessage_length(), fastcdr::Cdr::BIG_ENDIANNESS);
+[10.818s]       |             ~~~~~~~~~~~~~ ^
+[10.818s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:16:
+[10.818s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/AgentInstance.hpp:20:
+[10.818s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/utils/ArgumentParser.hpp:24:
+[10.819s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/Server.hpp:22:
+[10.819s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/Packet.hpp:19:
+[10.819s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:54:49: error: no member named 'getSerializedDataLength' in 'eprosima::fastcdr::Cdr'
+[10.819s]    54 |     size_t get_len() const { return serializer_.getSerializedDataLength(); }
+[10.819s]       |                                     ~~~~~~~~~~~ ^
+[10.819s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:116:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[10.819s]   116 |             serializer_.serializeArray(buf, len, fastcdr::Cdr::BIG_ENDIANNESS);
+[10.820s]       |             ~~~~~~~~~~~ ^
+[10.820s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.820s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.820s]       |                             ~~~~~~~~~~~ ^
+[10.820s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:137:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.820s]   137 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.820s]       |                                                                ~~~~~~~~~~~ ^
+[10.820s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:143:25: error: no member named 'serializeArray' in 'eprosima::fastcdr::Cdr'
+[10.820s]   143 |             serializer_.serializeArray(buf, len);
+[10.821s]       |             ~~~~~~~~~~~ ^
+[10.821s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:41: error: no member named 'getCurrentPosition' in 'eprosima::fastcdr::Cdr'
+[10.822s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.822s]       |                             ~~~~~~~~~~~ ^
+[10.822s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/message/OutputMessage.hpp:164:76: error: no member named 'getBufferPointer' in 'eprosima::fastcdr::Cdr'
+[10.822s]   164 |     serializer_.jump((4 - ((serializer_.getCurrentPosition() - serializer_.getBufferPointer()) & 3)) & 3);
+[10.822s]       |                                                                ~~~~~~~~~~~ ^
+[11.150s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:16:
+[11.150s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/AgentInstance.hpp:20:
+[11.150s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/utils/ArgumentParser.hpp:33:
+[11.150s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp:44:19: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[11.151s]    37 | class UDPv4Agent : public Server<IPv4EndPoint>
+[11.151s]       |                  final
+[11.151s]    38 | {
+[11.152s]    39 | public:
+[11.152s]    40 |     UDPv4Agent(
+[11.152s]    41 |             uint16_t port,
+[11.152s]    42 |             Middleware::Kind middleware_kind);
+[11.152s]    43 | 
+[11.153s]    44 |     ~UDPv4Agent() final;
+[11.153s]       |                   ^
+[11.153s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp:37:7: note: mark 'eprosima::uxr::UDPv4Agent' as 'final' to silence this warning
+[11.153s]    37 | class UDPv4Agent : public Server<IPv4EndPoint>
+[11.154s]       |       ^
+[11.164s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:16:
+[11.165s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/AgentInstance.hpp:20:
+[11.165s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/utils/ArgumentParser.hpp:34:
+[11.167s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp:41:19: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[11.168s]    34 | class UDPv6Agent : public Server<IPv6EndPoint>
+[11.168s]       |                  final
+[11.169s]    35 | {
+[11.169s]    36 | public:
+[11.169s]    37 |     UDPv6Agent(
+[11.169s]    38 |             uint16_t port,
+[11.169s]    39 |             Middleware::Kind middleware_kind);
+[11.169s]    40 | 
+[11.169s]    41 |     ~UDPv6Agent() final;
+[11.170s]       |                   ^
+[11.170s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp:34:7: note: mark 'eprosima::uxr::UDPv6Agent' as 'final' to silence this warning
+[11.170s]    34 | class UDPv6Agent : public Server<IPv6EndPoint>
+[11.170s]       |       ^
+[11.310s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:16:
+[11.311s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/AgentInstance.hpp:20:
+[11.312s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/utils/ArgumentParser.hpp:35:
+[11.312s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp:48:19: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[11.312s]    41 | class TCPv4Agent : public Server<IPv4EndPoint>, public TCPServerBase<TCPv4ConnectionLinux>
+[11.313s]       |                  final
+[11.313s]    42 | {
+[11.313s]    43 | public:
+[11.313s]    44 |     TCPv4Agent(
+[11.314s]    45 |             uint16_t agent_port,
+[11.314s]    46 |             Middleware::Kind middleware_kind);
+[11.314s]    47 | 
+[11.314s]    48 |     ~TCPv4Agent() final;
+[11.314s]       |                   ^
+[11.314s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp:41:7: note: mark 'eprosima::uxr::TCPv4Agent' as 'final' to silence this warning
+[11.315s]    41 | class TCPv4Agent : public Server<IPv4EndPoint>, public TCPServerBase<TCPv4ConnectionLinux>
+[11.315s]       |       ^
+[11.317s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:16:
+[11.317s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/AgentInstance.hpp:20:
+[11.317s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/utils/ArgumentParser.hpp:36:
+[11.318s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp:48:19: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[11.318s]    41 | class TCPv6Agent : public Server<IPv6EndPoint>, public TCPServerBase<TCPv6ConnectionLinux>
+[11.318s]       |                  final
+[11.318s]    42 | {
+[11.319s]    43 | public:
+[11.319s]    44 |     TCPv6Agent(
+[11.319s]    45 |             uint16_t agent_port,
+[11.319s]    46 |             Middleware::Kind middleware_kind);
+[11.319s]    47 | 
+[11.320s]    48 |     ~TCPv6Agent() final;
+[11.322s]       |                   ^
+[11.323s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp:41:7: note: mark 'eprosima::uxr::TCPv6Agent' as 'final' to silence this warning
+[11.323s]    41 | class TCPv6Agent : public Server<IPv6EndPoint>, public TCPServerBase<TCPv6ConnectionLinux>
+[11.324s]       |       ^
+[11.613s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:16:
+[11.613s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/AgentInstance.hpp:20:
+[11.613s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/utils/ArgumentParser.hpp:40:
+[11.613s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h:156:58: warning: format specifies type 'int' but the argument has type 'speed_t' (aka 'unsigned long') [-Wformat]
+[11.613s]   156 |         printf("Warning: Custom baud rate set to: %d\n", custom_baud_rate);
+[11.613s]       |                                                   ~~     ^~~~~~~~~~~~~~~~
+[11.613s]       |                                                   %lu
+[12.768s] 18 errors generated.
+[12.768s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o] Error 1
+[12.768s] make[2]: *** Waiting for unfinished jobs....
+[12.769s] 18 errors generated.
+[12.769s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o] Error 1
+[12.769s] 18 errors generated.
+[12.769s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o] Error 1
+[13.021s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/client/ProxyClient.cpp:26:
+[13.023s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp:38:23: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[13.024s]    34 | class FastMiddleware : public Middleware
+[13.024s]       |                      final
+[13.024s]    35 | {
+[13.024s]    36 | public:
+[13.024s]    37 |     FastMiddleware();
+[13.024s]    38 |     ~FastMiddleware() final = default;
+[13.025s]       |                       ^
+[13.025s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp:34:7: note: mark 'eprosima::uxr::FastMiddleware' as 'final' to silence this warning
+[13.025s]    34 | class FastMiddleware : public Middleware
+[13.025s]       |       ^
+[13.058s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/Agent.cpp:19:
+[13.058s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/utils/Callbacks.hpp:21:
+[13.059s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp:38:23: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[13.060s]    34 | class FastMiddleware : public Middleware
+[13.060s]       |                      final
+[13.061s]    35 | {
+[13.061s]    36 | public:
+[13.061s]    37 |     FastMiddleware();
+[13.061s]    38 |     ~FastMiddleware() final = default;
+[13.061s]       |                       ^
+[13.061s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp:34:7: note: mark 'eprosima::uxr::FastMiddleware' as 'final' to silence this warning
+[13.061s]    34 | class FastMiddleware : public Middleware
+[13.061s]       |       ^
+[13.064s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/processor/Processor.cpp:20:
+[13.064s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/Root.hpp:18:
+[13.064s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/ProxyClient.hpp:20:
+[13.065s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/Session.hpp:20:
+[13.065s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/client/session/stream/OutputStream.hpp:22:
+[13.065s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/logger/Logger.hpp:23:
+[13.065s] In file included from /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/spdlog/spdlog.h:12:
+[13.065s] In file included from /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/spdlog/common.h:50:
+[13.065s] In file included from /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/spdlog/fmt/fmt.h:25:
+[13.065s] In file included from /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/fmt/format.h:41:
+[13.065s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/fmt/base.h:2310:45: error: implicit instantiation of undefined template 'fmt::detail::type_is_unformattable_for<eprosima::uxr::IPv4EndPoint, char>'
+[13.066s]  2310 |     type_is_unformattable_for<T, char_type> _;
+[13.066s]       |                                             ^
+[13.066s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/fmt/base.h:2283:44: note: in instantiation of function template specialization 'fmt::detail::value<fmt::context>::value<eprosima::uxr::IPv4EndPoint, 0>' requested here
+[13.066s]  2283 |   FMT_CONSTEXPR20 FMT_INLINE value(T& x) : value(x, custom_tag()) {}
+[13.066s]       |                                            ^
+[13.066s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/fmt/base.h:2828:12: note: in instantiation of function template specialization 'fmt::detail::value<fmt::context>::value<eprosima::uxr::IPv4EndPoint, 0>' requested here
+[13.066s]  2828 |   return {{args...}};
+[13.066s]       |            ^
+[13.066s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/spdlog/logger.h:80:9: note: in instantiation of function template specialization 'spdlog::logger::log_<const char (&)[23], const unsigned int &, eprosima::uxr::IPv4EndPoint &>' requested here
+[13.067s]    80 |         log_(loc, lvl, details::to_string_view(fmt), std::forward<Args>(args)...);
+[13.067s]       |         ^
+[13.067s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/transport/SessionManager.hpp:132:9: note: in instantiation of function template specialization 'spdlog::logger::log<const char (&)[23], const unsigned int &, eprosima::uxr::IPv4EndPoint &>' requested here
+[13.067s]   132 |         UXR_AGENT_LOG_INFO(
+[13.067s]       |         ^
+[13.067s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/logger/Logger.hpp:111:39: note: expanded from macro 'UXR_AGENT_LOG_INFO'
+[13.067s]   111 | #define UXR_AGENT_LOG_INFO(X, Y, ...) SPDLOG_INFO(UXR_STATUS_FORMAT Y, X, __VA_ARGS__)
+[13.067s]       |                                       ^
+[13.067s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/spdlog/spdlog.h:319:26: note: expanded from macro 'SPDLOG_INFO'
+[13.068s]   319 | #define SPDLOG_INFO(...) SPDLOG_LOGGER_INFO(spdlog::default_logger_raw(), __VA_ARGS__)
+[13.068s]       |                          ^
+[13.068s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/spdlog/spdlog.h:318:41: note: expanded from macro 'SPDLOG_LOGGER_INFO'
+[13.068s]   318 | #define SPDLOG_LOGGER_INFO(logger, ...) SPDLOG_LOGGER_CALL(logger, spdlog::level::info, __VA_ARGS__)
+[13.068s]       |                                         ^
+[13.068s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/spdlog/spdlog.h:293:15: note: expanded from macro 'SPDLOG_LOGGER_CALL'
+[13.068s]   293 |     (logger)->log(spdlog::source_loc{__FILE__, __LINE__, SPDLOG_FUNCTION}, level, __VA_ARGS__)
+[13.068s]       |               ^
+[13.068s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/processor/Processor.cpp:1032:25: note: in instantiation of member function 'eprosima::uxr::SessionManager<eprosima::uxr::IPv4EndPoint>::destroy_session' requested here
+[13.069s]  1032 |                 server_.destroy_session(conversion::clientkey_to_raw(client->get_client_key()));
+[13.069s]       |                         ^
+[13.069s] /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/fmt/base.h:2150:45: note: template is declared here
+[13.069s]  2150 | template <typename T, typename Char> struct type_is_unformattable_for;
+[13.069s]       |                                             ^
+[13.178s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:17:
+[13.179s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/utils/Callbacks.hpp:21:
+[13.179s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp:38:23: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[13.179s]    34 | class FastMiddleware : public Middleware
+[13.179s]       |                      final
+[13.179s]    35 | {
+[13.180s]    36 | public:
+[13.180s]    37 |     FastMiddleware();
+[13.180s]    38 |     ~FastMiddleware() final = default;
+[13.180s]       |                       ^
+[13.180s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp:34:7: note: mark 'eprosima::uxr::FastMiddleware' as 'final' to silence this warning
+[13.180s]    34 | class FastMiddleware : public Middleware
+[13.180s]       |       ^
+[13.313s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/client/ProxyClient.cpp:27:
+[13.313s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:36:26: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[13.313s]    31 | class FastDDSMiddleware : public Middleware
+[13.314s]       |                         final
+[13.314s]    32 | {
+[13.314s]    33 | public:
+[13.314s]    34 |     FastDDSMiddleware();
+[13.314s]    35 |     FastDDSMiddleware(bool intraprocess_enabled);
+[13.314s]    36 |     ~FastDDSMiddleware() final = default;
+[13.315s]       |                          ^
+[13.315s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:31:7: note: mark 'eprosima::uxr::FastDDSMiddleware' as 'final' to silence this warning
+[13.315s]    31 | class FastDDSMiddleware : public Middleware
+[13.315s]       |       ^
+[13.318s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:51:10: warning: 'create_participant_by_bin' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+[13.319s]    51 |     bool create_participant_by_bin(
+[13.319s]       |          ^
+[13.319s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/Middleware.hpp:71:18: note: overridden virtual function is here
+[13.319s]    71 |     virtual bool create_participant_by_bin(
+[13.319s]       |                  ^
+[13.319s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/Agent.cpp:19:
+[13.319s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22:
+[13.320s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:36:26: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[13.320s]    31 | class FastDDSMiddleware : public Middleware
+[13.320s]       |                         final
+[13.320s]    32 | {
+[13.320s]    33 | public:
+[13.323s]    34 |     FastDDSMiddleware();
+[13.323s]    35 |     FastDDSMiddleware(bool intraprocess_enabled);
+[13.324s]    36 |     ~FastDDSMiddleware() final = default;
+[13.324s]       |                          ^
+[13.324s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:31:7: note: mark 'eprosima::uxr::FastDDSMiddleware' as 'final' to silence this warning
+[13.324s]    31 | class FastDDSMiddleware : public Middleware
+[13.324s]       |       ^
+[13.324s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:51:10: warning: 'create_participant_by_bin' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+[13.324s]    51 |     bool create_participant_by_bin(
+[13.324s]       |          ^
+[13.325s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/Middleware.hpp:71:18: note: overridden virtual function is here
+[13.325s]    71 |     virtual bool create_participant_by_bin(
+[13.325s]       |                  ^
+[13.456s] fatal error: too many errors emitted, stopping now [-ferror-limit=]
+[13.459s] 20 errors generated.
+[13.472s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o] Error 1
+[13.473s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:17:
+[13.473s] In file included from /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22:
+[13.473s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:36:26: warning: class with destructor marked 'final' cannot be inherited from [-Wfinal-dtor-non-final-class]
+[13.473s]    31 | class FastDDSMiddleware : public Middleware
+[13.473s]       |                         final
+[13.473s]    32 | {
+[13.473s]    33 | public:
+[13.473s]    34 |     FastDDSMiddleware();
+[13.474s]    35 |     FastDDSMiddleware(bool intraprocess_enabled);
+[13.474s]    36 |     ~FastDDSMiddleware() final = default;
+[13.474s]       |                          ^
+[13.474s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:31:7: note: mark 'eprosima::uxr::FastDDSMiddleware' as 'final' to silence this warning
+[13.474s]    31 | class FastDDSMiddleware : public Middleware
+[13.474s]       |       ^
+[13.474s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:51:10: warning: 'create_participant_by_bin' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+[13.474s]    51 |     bool create_participant_by_bin(
+[13.474s]       |          ^
+[13.474s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/include/uxr/agent/middleware/Middleware.hpp:71:18: note: overridden virtual function is here
+[13.475s]    71 |     virtual bool create_participant_by_bin(
+[13.475s]       |                  ^
+[13.551s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/Agent.cpp:217:25: warning: reference 'callback_factory_' is not yet bound to a value when used here [-Wuninitialized]
+[13.552s]   217 |     , callback_factory_(callback_factory_.getInstance())
+[13.552s]       |                         ^
+[13.672s] /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent/src/cpp/AgentInstance.cpp:23:25: warning: reference 'callback_factory_' is not yet bound to a value when used here [-Wuninitialized]
+[13.672s]    23 |     : callback_factory_(callback_factory_.getInstance())
+[13.672s]       |                         ^
+[14.858s] 18 errors generated.
+[14.888s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o] Error 1
+[15.191s] 4 warnings and 18 errors generated.
+[15.214s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o] Error 1
+[15.269s] 3 warnings and 18 errors generated.
+[15.282s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o] Error 1
+[15.376s] 9 warnings and 18 errors generated.
+[15.399s] make[2]: *** [CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o] Error 1
+[15.399s] make[1]: *** [CMakeFiles/microxrcedds_agent.dir/all] Error 2
+[15.399s] make: *** [all] Error 2
+[15.400s] Invoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent' returned '2': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8

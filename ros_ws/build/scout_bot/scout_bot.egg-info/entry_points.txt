@@ -1,0 +1,4 @@
+[console_scripts]
+offboard_control = scout_bot.offboard_control:main
+tmc_node = scout_bot.tmc_node:main
+yolo_node = scout_bot.yolo_node:main

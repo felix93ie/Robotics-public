@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-build/cmake_install.cmake",
+		"/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-build/src/cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs -- -j8 -l8
+[1.134s] [  0%] Built target px4_msgs__rosidl_generator_type_description
+[1.392s] [  0%] Built target px4_msgs__cpp
+[1.399s] [  0%] Built target ament_cmake_python_copy_px4_msgs
+[1.855s] running egg_info
+[1.880s] writing px4_msgs.egg-info/PKG-INFO
+[1.881s] writing dependency_links to px4_msgs.egg-info/dependency_links.txt
+[1.882s] writing top-level names to px4_msgs.egg-info/top_level.txt
+[1.958s] reading manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[1.967s] writing manifest file 'px4_msgs.egg-info/SOURCES.txt'
+[2.032s] [  3%] Built target ament_cmake_python_build_px4_msgs_egg
+[2.036s] [ 29%] Built target px4_msgs__rosidl_generator_c
+[2.565s] [ 39%] Built target px4_msgs__rosidl_typesupport_c
+[2.625s] [ 49%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[4.051s] [ 59%] Built target px4_msgs__rosidl_typesupport_cpp
+[4.161s] [ 69%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[4.208s] [ 84%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[4.209s] [ 89%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[4.403s] [ 89%] Built target px4_msgs
+[4.809s] [ 89%] Built target px4_msgs__py
+[6.964s] [ 99%] Built target px4_msgs__rosidl_generator_py
+[7.203s] [100%] Built target px4_msgs_s__rosidl_typesupport_introspection_c
+[7.204s] [100%] Built target px4_msgs_s__rosidl_typesupport_fastrtps_c
+[7.205s] [100%] Built target px4_msgs_s__rosidl_typesupport_c

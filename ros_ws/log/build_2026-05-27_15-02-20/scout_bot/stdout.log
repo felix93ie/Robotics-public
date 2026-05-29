@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing scout_bot.egg-info/PKG-INFO
+writing dependency_links to scout_bot.egg-info/dependency_links.txt
+writing entry points to scout_bot.egg-info/entry_points.txt
+writing requirements to scout_bot.egg-info/requires.txt
+writing top-level names to scout_bot.egg-info/top_level.txt
+reading manifest file 'scout_bot.egg-info/SOURCES.txt'
+writing manifest file 'scout_bot.egg-info/SOURCES.txt'
+running build_ext
+Creating /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout-bot.egg-link (link to .)
+Installing offboard_control script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+Installing tmc_node script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+Installing yolo_node script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+
+Installed /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot
+running symlink_data
+symbolically linking /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/resource/scout_bot -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/ament_index/resource_index/packages
+symbolically linking /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/package.xml -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot
+symbolically linking /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/config/mission_config.yaml -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/config

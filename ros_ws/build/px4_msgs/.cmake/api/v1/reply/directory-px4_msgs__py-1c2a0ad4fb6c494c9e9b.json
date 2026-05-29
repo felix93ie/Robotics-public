@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "px4_msgs__py",
+		"source" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs/px4_msgs__py"
+	}
+}

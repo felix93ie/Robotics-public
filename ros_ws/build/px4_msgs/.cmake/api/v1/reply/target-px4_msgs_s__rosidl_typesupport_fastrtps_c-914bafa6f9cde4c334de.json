@@ -1,0 +1,862 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "rosidl_generator_py/px4_msgs/px4_msgs_s__rosidl_typesupport_fastrtps_c.so"
+		}
+	],
+	"backtrace" : 7,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__Python3_add_library",
+			"python3_add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/cmake-4.3/Modules/FindPython/Support.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/cmake-4.3/Modules/FindPython3.cmake:674:EVAL",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/builtin_interfaces/cmake/export_builtin_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 180,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4583,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 228,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 4592,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 198,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 222,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 152,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 236,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 236,
+				"parent" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 16
+			},
+			{
+				"file" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 18
+			},
+			{
+				"file" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 61,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 18
+			},
+			{
+				"file" : 10,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 141,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 11,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 131,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 18
+			},
+			{
+				"file" : 12,
+				"parent" : 29
+			},
+			{
+				"command" : 9,
+				"file" : 12,
+				"line" : 61,
+				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 218,
+				"parent" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 183,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 192,
+				"parent" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 27
+			},
+			{
+				"file" : 14,
+				"parent" : 35
+			},
+			{
+				"command" : 3,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 36
+			},
+			{
+				"file" : 13,
+				"parent" : 37
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 25,
+				"parent" : 38
+			},
+			{
+				"command" : 13,
+				"file" : 2,
+				"line" : 208,
+				"parent" : 4
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 148,
+				"parent" : 11
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "Python3::Module::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_c::rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_interface::rosidl_typesupport_interface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rcutils::rcutils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_dynamic_typesupport::rosidl_dynamic_typesupport::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -arch arm64 -fPIC"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 34,
+					"fragment" : "-Wextra"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FASTCDR_DYN_LINK"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "ROS_PACKAGE_NAME=\"px4_msgs\""
+				},
+				{
+					"define" : "px4_msgs_s__rosidl_typesupport_fastrtps_c_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 40,
+					"path" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 40,
+					"path" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs/rosidl_generator_py"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rmw"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/python3.12"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages/numpy/_core/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rcutils"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/service_msgs"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_dynamic_typesupport"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_typesupport_fastrtps_c"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_typesupport_introspection_cpp"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/include/rosidl_typesupport_c"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 32,
+			"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "px4_msgs__py::@2036f14245c7957b8037"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "px4_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 8,
+				"path" : "lib/python3.12/site-packages/px4_msgs"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs"
+		}
+	},
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_c::rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_interface::rosidl_typesupport_interface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rcutils::rcutils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_dynamic_typesupport::rosidl_dynamic_typesupport::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_c::rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_interface::rosidl_typesupport_interface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librmw.dylib"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rcutils::rcutils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_dynamic_typesupport::rosidl_dynamic_typesupport::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-bundle -Wl,-headerpad_max_install_names",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-Xlinker",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-Xlinker",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "dynamic_lookup",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs -Wl,-rpath,/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "libpx4_msgs__rosidl_generator_py.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "libpx4_msgs__rosidl_typesupport_fastrtps_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "libpx4_msgs__rosidl_typesupport_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librmw.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_typesupport_introspection_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_typesupport_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_generator_py.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librosidl_typesupport_introspection_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librosidl_typesupport_introspection_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_generator_py.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_typesupport_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_typesupport_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librosidl_typesupport_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "libpx4_msgs__rosidl_generator_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libservice_msgs__rosidl_generator_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libbuiltin_interfaces__rosidl_generator_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librosidl_typesupport_fastrtps_cpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librmw.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librosidl_dynamic_typesupport.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librosidl_typesupport_fastrtps_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librosidl_runtime_c.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librcutils.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libfastcdr.2.2.7.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "Python3::Module::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_c::rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "rosidl_typesupport_interface::rosidl_typesupport_interface::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"fragment" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/librmw.dylib"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rcutils::rcutils::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_dynamic_typesupport::rosidl_dynamic_typesupport::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "rosidl_runtime_c::rosidl_runtime_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"name" : "px4_msgs_s__rosidl_typesupport_fastrtps_c",
+	"nameOnDisk" : "px4_msgs_s__rosidl_typesupport_fastrtps_c.so",
+	"orderDependencies" : 
+	[
+		{
+			"backtrace" : 32,
+			"id" : "px4_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "px4_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "px4_msgs__py::@2036f14245c7957b8037"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

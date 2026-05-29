@@ -1,0 +1,17 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# Build artifacts and logs
+build/
+install/
+log/
+ros_ws/log/
+ros_ws/build/
+ros_ws/install/
+__pycache__/
+*.pyc
+yolov10n.pt
+
+# Gemini AI Agent artifacts
+.gemini/

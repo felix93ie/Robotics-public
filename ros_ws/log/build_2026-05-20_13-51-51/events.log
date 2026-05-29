@@ -1,0 +1,426 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000296] (scout_bot) JobQueued: {'identifier': 'scout_bot', 'dependencies': OrderedDict({'px4_msgs': '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs'})}
+[0.000482] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.026439] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.027654] (px4_msgs) Command: {'cmd': ['/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake', '/Users/eduardofelix/scout_bot_mac/ros_ws/src/px4_msgs', '-DCMAKE_FIND_FRAMEWORK=LAST', '-DCMAKE_SYSTEM_IGNORE_PATH=/opt/homebrew', '-DCMAKE_IGNORE_PATH=/opt/homebrew', '-DPython3_EXECUTABLE=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3', '-DCMAKE_INSTALL_PREFIX=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs'], 'cwd': '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs', 'env': OrderedDict({'NVM_INC': '/Users/eduardofelix/.nvm/versions/node/v24.13.0/include/node', 'ANTIGRAVITY_AGENT': '1', 'OGRE2_RESOURCE_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/OGRE-Next', 'GDAL_DRIVER_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/gdalplugins', 'PROJ_DATA': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/proj', 'PIXI_IN_SHELL': '1', 'NVM_CD_FLAGS': '-q', 'INIT_CWD': '/Users/eduardofelix/scout_bot_mac/ros_ws', 'GEM_HOME': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rubygems/', 'TERM': 'dumb', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/qg/qvrynmy139v49b5x7vgr6w_h0000gp/T/', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'CONDA_SHLVL': '1', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/Users/eduardofelix/.oh-my-zsh/plugins/git:/Users/eduardofelix/.oh-my-zsh/functions:/Users/eduardofelix/.oh-my-zsh/completions:/Users/eduardofelix/.oh-my-zsh/custom/functions:/Users/eduardofelix/.oh-my-zsh/custom/completions:/Users/eduardofelix/.oh-my-zsh/cache/completions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'ANDROID_SDK_ROOT': '/Users/eduardofelix/Library/Android/sdk', 'ROS_PYTHON_VERSION': '3', 'PIXI_ENVIRONMENT_NAME': 'default', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default', 'ZSH': '/Users/eduardofelix/.oh-my-zsh', 'USER': 'eduardofelix', 'NVM_DIR': '/Users/eduardofelix/.nvm', 'LS_COLORS': 'di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43', 'COMMAND_MODE': 'unix2003', 'PIXI_EXE': '/Users/eduardofelix/.pixi/bin/pixi', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.urY7QfLXLr/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0', 'ROS_OS_OVERRIDE': 'conda:osx', 'PAGER': 'cat', 'PIXI_PROJECT_MANIFEST': '/Users/eduardofelix/scout_bot_mac/pixi.toml', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rubygems/bin:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/opt/rviz_ogre_vendor/bin:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin:/Users/eduardofelix/.pixi/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/eduardofelix/.antigravity/antigravity/bin:/Users/eduardofelix/.nvm/versions/node/v24.13.0/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/eduardofelix/Development/flutter/bin:/Users/eduardofelix/Library/Android/sdk/cmdline-tools/latest/bin:/Users/eduardofelix/Library/Android/sdk/platform-tools:/Users/eduardofelix/.pub-cache/bin', 'CPL_ZIP_ENCODING': 'UTF-8', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/eduardofelix/scout_bot_mac/.pixi/envs/default/etc/xml/catalog file:///etc/xml/catalog', '__CFBundleIdentifier': 'com.google.antigravity', 'PIXI_PROJECT_NAME': 'scout_bot_mac', 'CONDA_PREFIX': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default', 'PWD': '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs', 'PIXI_PROMPT': '(scout_bot_mac)', 'COLCON': '1', 'OGRE_RESOURCE_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/OGRE', 'JAVA_HOME': '/Applications/Android Studio.app/Contents/jbr/Contents/Home', 'LANG': 'C.UTF-8', 'ANTIGRAVITY_EDITOR_APP_ROOT': '/Applications/Antigravity.app/Contents/Resources/app', 'XPC_FLAGS': '0x0', 'GDAL_DATA': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/gdal', 'XPC_SERVICE_NAME': '0', 'PIXI_ENVIRONMENT_PLATFORMS': 'osx-arm64', 'SHLVL': '1', 'PIXI_PROJECT_ROOT': '/Users/eduardofelix/scout_bot_mac', 'HOME': '/Users/eduardofelix', 'ROS_DISTRO': 'jazzy', 'ANTIGRAVITY_TRAJECTORY_ID': '1a2d0eb3-248f-4a16-aafd-f80657338c1d', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Antigravity.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'HOMEBREW_PREFIX': '/opt/homebrew', 'PYTHONPATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python/site-packages:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages', 'LOGNAME': 'eduardofelix', 'LESS': '-R', 'VSCODE_IPC_HOOK': '/Users/eduardofelix/Library/Application Support/Antigravity/1.10-main.sock', 'VSCODE_CODE_CACHE_PATH': '/Users/eduardofelix/Library/Application Support/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PIXI_PROJECT_VERSION': '0.1.0', 'NVM_BIN': '/Users/eduardofelix/.nvm/versions/node/v24.13.0/bin', 'CONDA_DEFAULT_ENV': 'scout_bot_mac', 'VSCODE_PID': '67466', 'INFOPATH': '/opt/homebrew/share/info:', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'OSLogRateLimit': '64', 'VSCODE_CWD': '/', 'ROS_ETC_DIR': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/etc/ros', '_': '/usr/bin/env', 'CMAKE_PREFIX_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default'}), 'shell': False}
+[0.102235] (-) TimerEvent: {}
+[0.207377] (-) TimerEvent: {}
+[0.220716] (px4_msgs) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.221071] (px4_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.221190] (px4_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.221298] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.221395] (px4_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.221488] (px4_msgs) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.221580] (px4_msgs) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.221673] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.221764] (px4_msgs) StderrLine: {'line': b'\n'}
+[0.308844] (-) TimerEvent: {}
+[0.412840] (-) TimerEvent: {}
+[0.517982] (-) TimerEvent: {}
+[0.621641] (-) TimerEvent: {}
+[0.725763] (-) TimerEvent: {}
+[0.829503] (-) TimerEvent: {}
+[0.934631] (-) TimerEvent: {}
+[0.941876] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is AppleClang 21.0.0.21000099\n'}
+[1.039660] (-) TimerEvent: {}
+[1.092324] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is AppleClang 21.0.0.21000099\n'}
+[1.139679] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.139843] (-) TimerEvent: {}
+[1.241839] (-) TimerEvent: {}
+[1.343009] (-) TimerEvent: {}
+[1.425458] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.443197] (-) TimerEvent: {}
+[1.446577] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.447127] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.447925] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.456777] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.548236] (-) TimerEvent: {}
+[1.653334] (-) TimerEvent: {}
+[1.726112] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.748308] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.748687] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.749458] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.754282] (-) TimerEvent: {}
+[1.789018] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/ament_cmake/cmake)\n'}
+[1.857882] (-) TimerEvent: {}
+[1.958778] (-) TimerEvent: {}
+[1.974649] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter\n'}
+[2.060010] (-) TimerEvent: {}
+[2.165105] (-) TimerEvent: {}
+[2.267705] (-) TimerEvent: {}
+[2.282746] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/builtin_interfaces/cmake)\n'}
+[2.372729] (-) TimerEvent: {}
+[2.429661] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rosidl_generator_c/cmake)\n'}
+[2.474421] (-) TimerEvent: {}
+[2.488665] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rosidl_generator_cpp/cmake)\n'}
+[2.553075] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.577221] (-) TimerEvent: {}
+[2.621373] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.682299] (-) TimerEvent: {}
+[2.689417] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rosidl_default_generators/cmake)\n'}
+[2.780978] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rosidl_adapter/cmake)\n'}
+[2.782334] (-) TimerEvent: {}
+[2.887478] (-) TimerEvent: {}
+[2.992586] (-) TimerEvent: {}
+[3.097690] (-) TimerEvent: {}
+[3.202784] (-) TimerEvent: {}
+[3.307871] (-) TimerEvent: {}
+[3.410015] (-) TimerEvent: {}
+[3.515071] (-) TimerEvent: {}
+[3.620115] (-) TimerEvent: {}
+[3.725382] (-) TimerEvent: {}
+[3.829198] (-) TimerEvent: {}
+[3.934272] (-) TimerEvent: {}
+[4.039353] (-) TimerEvent: {}
+[4.142774] (-) TimerEvent: {}
+[4.243269] (-) TimerEvent: {}
+[4.348242] (-) TimerEvent: {}
+[4.453376] (-) TimerEvent: {}
+[4.557889] (-) TimerEvent: {}
+[4.658471] (-) TimerEvent: {}
+[4.763078] (-) TimerEvent: {}
+[4.866389] (-) TimerEvent: {}
+[4.971736] (-) TimerEvent: {}
+[5.075092] (-) TimerEvent: {}
+[5.179526] (-) TimerEvent: {}
+[5.279886] (-) TimerEvent: {}
+[5.382850] (-) TimerEvent: {}
+[5.485438] (-) TimerEvent: {}
+[5.551048] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/ament_cmake_ros/cmake)\n'}
+[5.585667] (-) TimerEvent: {}
+[5.690741] (-) TimerEvent: {}
+[5.791812] (-) TimerEvent: {}
+[5.896162] (-) TimerEvent: {}
+[6.000134] (-) TimerEvent: {}
+[6.105258] (-) TimerEvent: {}
+[6.207983] (-) TimerEvent: {}
+[6.308427] (-) TimerEvent: {}
+[6.408772] (-) TimerEvent: {}
+[6.512826] (-) TimerEvent: {}
+[6.618089] (-) TimerEvent: {}
+[6.713133] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.719256] (-) TimerEvent: {}
+[6.824397] (-) TimerEvent: {}
+[6.926403] (-) TimerEvent: {}
+[7.029093] (-) TimerEvent: {}
+[7.134100] (-) TimerEvent: {}
+[7.235690] (-) TimerEvent: {}
+[7.247886] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.278320] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/python_cmake_module/cmake)\n'}
+[7.340741] (-) TimerEvent: {}
+[7.441909] (-) TimerEvent: {}
+[7.542797] (-) TimerEvent: {}
+[7.551584] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3\n'}
+[7.642891] (-) TimerEvent: {}
+[7.743497] (-) TimerEvent: {}
+[7.848480] (-) TimerEvent: {}
+[7.953575] (-) TimerEvent: {}
+[8.058468] (-) TimerEvent: {}
+[8.163568] (-) TimerEvent: {}
+[8.182003] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3 (found version "3.12.13") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[8.266307] (-) TimerEvent: {}
+[8.320251] (px4_msgs) StdoutLine: {'line': b'-- Configuring done (8.1s)\n'}
+[8.371331] (-) TimerEvent: {}
+[8.476395] (-) TimerEvent: {}
+[8.581469] (-) TimerEvent: {}
+[8.686550] (-) TimerEvent: {}
+[8.791629] (-) TimerEvent: {}
+[8.891814] (-) TimerEvent: {}
+[8.994203] (-) TimerEvent: {}
+[9.099371] (-) TimerEvent: {}
+[9.199821] (-) TimerEvent: {}
+[9.307837] (-) TimerEvent: {}
+[9.409281] (-) TimerEvent: {}
+[9.515301] (-) TimerEvent: {}
+[9.619474] (-) TimerEvent: {}
+[9.721872] (-) TimerEvent: {}
+[9.826422] (-) TimerEvent: {}
+[9.903408] (px4_msgs) StdoutLine: {'line': b'-- Generating done (1.6s)\n'}
+[9.931172] (-) TimerEvent: {}
+[10.010543] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs\n'}
+[10.035973] (-) TimerEvent: {}
+[10.043908] (px4_msgs) CommandEnded: {'returncode': 0}
+[10.046424] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[10.047743] (px4_msgs) Command: {'cmd': ['/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake', '--build', '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs', '--', '-j8', '-l8'], 'cwd': '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs', 'env': OrderedDict({'NVM_INC': '/Users/eduardofelix/.nvm/versions/node/v24.13.0/include/node', 'ANTIGRAVITY_AGENT': '1', 'OGRE2_RESOURCE_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/OGRE-Next', 'GDAL_DRIVER_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/gdalplugins', 'PROJ_DATA': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/proj', 'PIXI_IN_SHELL': '1', 'NVM_CD_FLAGS': '-q', 'INIT_CWD': '/Users/eduardofelix/scout_bot_mac/ros_ws', 'GEM_HOME': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rubygems/', 'TERM': 'dumb', 'SHELL': '/bin/zsh', 'TMPDIR': '/var/folders/qg/qvrynmy139v49b5x7vgr6w_h0000gp/T/', 'HOMEBREW_REPOSITORY': '/opt/homebrew', 'CONDA_SHLVL': '1', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'FPATH': '/opt/homebrew/share/zsh/site-functions:/Users/eduardofelix/.oh-my-zsh/plugins/git:/Users/eduardofelix/.oh-my-zsh/functions:/Users/eduardofelix/.oh-my-zsh/completions:/Users/eduardofelix/.oh-my-zsh/custom/functions:/Users/eduardofelix/.oh-my-zsh/custom/completions:/Users/eduardofelix/.oh-my-zsh/cache/completions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.9/functions', 'ANDROID_SDK_ROOT': '/Users/eduardofelix/Library/Android/sdk', 'ROS_PYTHON_VERSION': '3', 'PIXI_ENVIRONMENT_NAME': 'default', 'MallocNanoZone': '0', 'ROS_VERSION': '2', 'AMENT_PREFIX_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default', 'ZSH': '/Users/eduardofelix/.oh-my-zsh', 'USER': 'eduardofelix', 'NVM_DIR': '/Users/eduardofelix/.nvm', 'LS_COLORS': 'di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43', 'COMMAND_MODE': 'unix2003', 'PIXI_EXE': '/Users/eduardofelix/.pixi/bin/pixi', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.urY7QfLXLr/Listeners', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x0', 'ROS_OS_OVERRIDE': 'conda:osx', 'PAGER': 'cat', 'PIXI_PROJECT_MANIFEST': '/Users/eduardofelix/scout_bot_mac/pixi.toml', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/rubygems/bin:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/opt/rviz_ogre_vendor/bin:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin:/Users/eduardofelix/.pixi/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/eduardofelix/.antigravity/antigravity/bin:/Users/eduardofelix/.nvm/versions/node/v24.13.0/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/eduardofelix/Development/flutter/bin:/Users/eduardofelix/Library/Android/sdk/cmdline-tools/latest/bin:/Users/eduardofelix/Library/Android/sdk/platform-tools:/Users/eduardofelix/.pub-cache/bin', 'CPL_ZIP_ENCODING': 'UTF-8', 'PROJ_NETWORK': 'ON', 'GSETTINGS_SCHEMA_DIR': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/glib-2.0/schemas', 'XML_CATALOG_FILES': 'file:///Users/eduardofelix/scout_bot_mac/.pixi/envs/default/etc/xml/catalog file:///etc/xml/catalog', '__CFBundleIdentifier': 'com.google.antigravity', 'PIXI_PROJECT_NAME': 'scout_bot_mac', 'CONDA_PREFIX': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default', 'PWD': '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs', 'PIXI_PROMPT': '(scout_bot_mac)', 'COLCON': '1', 'OGRE_RESOURCE_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/OGRE', 'JAVA_HOME': '/Applications/Android Studio.app/Contents/jbr/Contents/Home', 'LANG': 'C.UTF-8', 'ANTIGRAVITY_EDITOR_APP_ROOT': '/Applications/Antigravity.app/Contents/Resources/app', 'XPC_FLAGS': '0x0', 'GDAL_DATA': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/gdal', 'XPC_SERVICE_NAME': '0', 'PIXI_ENVIRONMENT_PLATFORMS': 'osx-arm64', 'SHLVL': '1', 'PIXI_PROJECT_ROOT': '/Users/eduardofelix/scout_bot_mac', 'HOME': '/Users/eduardofelix', 'ROS_DISTRO': 'jazzy', 'ANTIGRAVITY_TRAJECTORY_ID': '1a2d0eb3-248f-4a16-aafd-f80657338c1d', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/Applications/Antigravity.app/Contents/Resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'HOMEBREW_PREFIX': '/opt/homebrew', 'PYTHONPATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python/site-packages:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages', 'LOGNAME': 'eduardofelix', 'LESS': '-R', 'VSCODE_IPC_HOOK': '/Users/eduardofelix/Library/Application Support/Antigravity/1.10-main.sock', 'VSCODE_CODE_CACHE_PATH': '/Users/eduardofelix/Library/Application Support/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PIXI_PROJECT_VERSION': '0.1.0', 'NVM_BIN': '/Users/eduardofelix/.nvm/versions/node/v24.13.0/bin', 'CONDA_DEFAULT_ENV': 'scout_bot_mac', 'VSCODE_PID': '67466', 'INFOPATH': '/opt/homebrew/share/info:', 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar', 'OSLogRateLimit': '64', 'VSCODE_CWD': '/', 'ROS_ETC_DIR': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/etc/ros', '_': '/usr/bin/env', 'CMAKE_PREFIX_PATH': '/Users/eduardofelix/scout_bot_mac/.pixi/envs/default'}), 'shell': False}
+[10.136424] (-) TimerEvent: {}
+[10.241859] (-) TimerEvent: {}
+[10.347004] (-) TimerEvent: {}
+[10.450486] (-) TimerEvent: {}
+[10.555232] (-) TimerEvent: {}
+[10.663610] (-) TimerEvent: {}
+[10.768025] (-) TimerEvent: {}
+[10.872617] (-) TimerEvent: {}
+[10.975631] (-) TimerEvent: {}
+[11.077823] (-) TimerEvent: {}
+[11.183094] (-) TimerEvent: {}
+[11.284293] (-) TimerEvent: {}
+[11.385373] (-) TimerEvent: {}
+[11.485639] (-) TimerEvent: {}
+[11.556399] (px4_msgs) StdoutLine: {'line': b'[  0%] Generating type hashes for ROS interfaces\n'}
+[11.590653] (-) TimerEvent: {}
+[11.692997] (-) TimerEvent: {}
+[11.798106] (-) TimerEvent: {}
+[11.903219] (-) TimerEvent: {}
+[12.007888] (-) TimerEvent: {}
+[12.110070] (-) TimerEvent: {}
+[12.211474] (-) TimerEvent: {}
+[12.316577] (-) TimerEvent: {}
+[12.421690] (-) TimerEvent: {}
+[12.526573] (-) TimerEvent: {}
+[12.629979] (-) TimerEvent: {}
+[12.735126] (-) TimerEvent: {}
+[12.840215] (-) TimerEvent: {}
+[12.943003] (-) TimerEvent: {}
+[13.048120] (-) TimerEvent: {}
+[13.153256] (-) TimerEvent: {}
+[13.256621] (-) TimerEvent: {}
+[13.358763] (-) TimerEvent: {}
+[13.460018] (-) TimerEvent: {}
+[13.565131] (-) TimerEvent: {}
+[13.668718] (-) TimerEvent: {}
+[13.772049] (-) TimerEvent: {}
+[13.875134] (-) TimerEvent: {}
+[13.977618] (-) TimerEvent: {}
+[14.082679] (-) TimerEvent: {}
+[14.186959] (-) TimerEvent: {}
+[14.291919] (-) TimerEvent: {}
+[14.392764] (-) TimerEvent: {}
+[14.493191] (-) TimerEvent: {}
+[14.598203] (-) TimerEvent: {}
+[14.699065] (-) TimerEvent: {}
+[14.804153] (-) TimerEvent: {}
+[14.908367] (-) TimerEvent: {}
+[15.009739] (-) TimerEvent: {}
+[15.114852] (-) TimerEvent: {}
+[15.219968] (-) TimerEvent: {}
+[15.324070] (-) TimerEvent: {}
+[15.424411] (-) TimerEvent: {}
+[15.526391] (-) TimerEvent: {}
+[15.629953] (-) TimerEvent: {}
+[15.735030] (-) TimerEvent: {}
+[15.835461] (-) TimerEvent: {}
+[15.940597] (-) TimerEvent: {}
+[16.045732] (-) TimerEvent: {}
+[16.150672] (-) TimerEvent: {}
+[16.254793] (-) TimerEvent: {}
+[16.358783] (-) TimerEvent: {}
+[16.460451] (-) TimerEvent: {}
+[16.562685] (-) TimerEvent: {}
+[16.667808] (-) TimerEvent: {}
+[16.772061] (-) TimerEvent: {}
+[16.874346] (-) TimerEvent: {}
+[16.979446] (-) TimerEvent: {}
+[17.083571] (-) TimerEvent: {}
+[17.184556] (-) TimerEvent: {}
+[17.289635] (-) TimerEvent: {}
+[17.394700] (-) TimerEvent: {}
+[17.499761] (-) TimerEvent: {}
+[17.604819] (-) TimerEvent: {}
+[17.708469] (-) TimerEvent: {}
+[17.811485] (-) TimerEvent: {}
+[17.916541] (-) TimerEvent: {}
+[18.021579] (-) TimerEvent: {}
+[18.124334] (-) TimerEvent: {}
+[18.224459] (-) TimerEvent: {}
+[18.327523] (-) TimerEvent: {}
+[18.431579] (-) TimerEvent: {}
+[18.536652] (-) TimerEvent: {}
+[18.641731] (-) TimerEvent: {}
+[18.742541] (-) TimerEvent: {}
+[18.842779] (-) TimerEvent: {}
+[18.943179] (-) TimerEvent: {}
+[19.048249] (-) TimerEvent: {}
+[19.150195] (-) TimerEvent: {}
+[19.255284] (-) TimerEvent: {}
+[19.358770] (-) TimerEvent: {}
+[19.463837] (-) TimerEvent: {}
+[19.568894] (-) TimerEvent: {}
+[19.672037] (-) TimerEvent: {}
+[19.777108] (-) TimerEvent: {}
+[19.879957] (-) TimerEvent: {}
+[19.984547] (-) TimerEvent: {}
+[20.085391] (-) TimerEvent: {}
+[20.188905] (-) TimerEvent: {}
+[20.292552] (-) TimerEvent: {}
+[20.392989] (-) TimerEvent: {}
+[20.498064] (-) TimerEvent: {}
+[20.603194] (-) TimerEvent: {}
+[20.708598] (-) TimerEvent: {}
+[20.811941] (-) TimerEvent: {}
+[20.916336] (-) TimerEvent: {}
+[21.021440] (-) TimerEvent: {}
+[21.124521] (-) TimerEvent: {}
+[21.226397] (-) TimerEvent: {}
+[21.327306] (-) TimerEvent: {}
+[21.430005] (-) TimerEvent: {}
+[21.534555] (-) TimerEvent: {}
+[21.639636] (-) TimerEvent: {}
+[21.743031] (-) TimerEvent: {}
+[21.848128] (-) TimerEvent: {}
+[21.953218] (-) TimerEvent: {}
+[22.056438] (-) TimerEvent: {}
+[22.158490] (-) TimerEvent: {}
+[22.258820] (-) TimerEvent: {}
+[22.361592] (-) TimerEvent: {}
+[22.466182] (-) TimerEvent: {}
+[22.567777] (-) TimerEvent: {}
+[22.671856] (-) TimerEvent: {}
+[22.776960] (-) TimerEvent: {}
+[22.878078] (-) TimerEvent: {}
+[22.983190] (-) TimerEvent: {}
+[23.084163] (-) TimerEvent: {}
+[23.189277] (-) TimerEvent: {}
+[23.294039] (-) TimerEvent: {}
+[23.399125] (-) TimerEvent: {}
+[23.500157] (-) TimerEvent: {}
+[23.604918] (-) TimerEvent: {}
+[23.708410] (-) TimerEvent: {}
+[23.810043] (-) TimerEvent: {}
+[23.915196] (-) TimerEvent: {}
+[24.017553] (-) TimerEvent: {}
+[24.118119] (-) TimerEvent: {}
+[24.223221] (-) TimerEvent: {}
+[24.325648] (-) TimerEvent: {}
+[24.426426] (-) TimerEvent: {}
+[24.529977] (-) TimerEvent: {}
+[24.634798] (-) TimerEvent: {}
+[24.737610] (-) TimerEvent: {}
+[24.841832] (-) TimerEvent: {}
+[24.943310] (-) TimerEvent: {}
+[25.048076] (-) TimerEvent: {}
+[25.153186] (-) TimerEvent: {}
+[25.257933] (-) TimerEvent: {}
+[25.358820] (-) TimerEvent: {}
+[25.459999] (-) TimerEvent: {}
+[25.560575] (-) TimerEvent: {}
+[25.665682] (-) TimerEvent: {}
+[25.766366] (-) TimerEvent: {}
+[25.871482] (-) TimerEvent: {}
+[25.975697] (-) TimerEvent: {}
+[26.079972] (-) TimerEvent: {}
+[26.185059] (-) TimerEvent: {}
+[26.290147] (-) TimerEvent: {}
+[26.392989] (-) TimerEvent: {}
+[26.497907] (-) TimerEvent: {}
+[26.602975] (-) TimerEvent: {}
+[26.708068] (-) TimerEvent: {}
+[26.808516] (-) TimerEvent: {}
+[26.913643] (-) TimerEvent: {}
+[27.018719] (-) TimerEvent: {}
+[27.121502] (-) TimerEvent: {}
+[27.225155] (-) TimerEvent: {}
+[27.330240] (-) TimerEvent: {}
+[27.433574] (-) TimerEvent: {}
+[27.538657] (-) TimerEvent: {}
+[27.643480] (-) TimerEvent: {}
+[27.747492] (-) TimerEvent: {}
+[27.852666] (-) TimerEvent: {}
+[27.957773] (-) TimerEvent: {}
+[28.060010] (-) TimerEvent: {}
+[28.165128] (-) TimerEvent: {}
+[28.267559] (-) TimerEvent: {}
+[28.372045] (-) TimerEvent: {}
+[28.474456] (-) TimerEvent: {}
+[28.576390] (-) TimerEvent: {}
+[28.681465] (-) TimerEvent: {}
+[28.785662] (-) TimerEvent: {}
+[28.889850] (-) TimerEvent: {}
+[28.992752] (-) TimerEvent: {}
+[29.097811] (-) TimerEvent: {}
+[29.202877] (-) TimerEvent: {}
+[29.306995] (-) TimerEvent: {}
+[29.408770] (-) TimerEvent: {}
+[29.513850] (-) TimerEvent: {}
+[29.618920] (-) TimerEvent: {}
+[29.722040] (-) TimerEvent: {}
+[29.824330] (-) TimerEvent: {}
+[29.924448] (-) TimerEvent: {}
+[30.004188] (<colcon_parallel_executor.executor.parallel.ParallelExecutorExtension object at 0x1041f86b0>) ParallelStatus: {'processing': ('px4_msgs',)}
+[30.025313] (-) TimerEvent: {}
+[30.129962] (-) TimerEvent: {}
+[30.235104] (-) TimerEvent: {}
+[30.335247] (-) TimerEvent: {}
+[30.440322] (-) TimerEvent: {}
+[30.541831] (-) TimerEvent: {}
+[30.642169] (-) TimerEvent: {}
+[30.742547] (-) TimerEvent: {}
+[30.842777] (-) TimerEvent: {}
+[30.947720] (-) TimerEvent: {}
+[31.052807] (-) TimerEvent: {}
+[31.156048] (-) TimerEvent: {}
+[31.258485] (-) TimerEvent: {}
+[31.363561] (-) TimerEvent: {}
+[31.468629] (-) TimerEvent: {}
+[31.572046] (-) TimerEvent: {}
+[31.677121] (-) TimerEvent: {}
+[31.777471] (-) TimerEvent: {}
+[31.882553] (-) TimerEvent: {}
+[31.985143] (-) TimerEvent: {}
+[32.085658] (-) TimerEvent: {}
+[32.188907] (-) TimerEvent: {}
+[32.292761] (-) TimerEvent: {}
+[32.397832] (-) TimerEvent: {}
+[32.498334] (-) TimerEvent: {}
+[32.603459] (-) TimerEvent: {}
+[32.708519] (-) TimerEvent: {}
+[32.810021] (-) TimerEvent: {}
+[32.915112] (-) TimerEvent: {}
+[33.017702] (-) TimerEvent: {}
+[33.122053] (-) TimerEvent: {}
+[33.226421] (-) TimerEvent: {}
+[33.329963] (-) TimerEvent: {}
+[33.435040] (-) TimerEvent: {}
+[33.539803] (-) TimerEvent: {}
+[33.643341] (-) TimerEvent: {}
+[33.775712] (-) TimerEvent: {}
+[33.880963] (-) TimerEvent: {}
+[33.986046] (-) TimerEvent: {}
+[34.091120] (-) TimerEvent: {}
+[34.191847] (-) TimerEvent: {}
+[34.292758] (-) TimerEvent: {}
+[34.393186] (-) TimerEvent: {}
+[34.497904] (-) TimerEvent: {}
+[34.598205] (-) TimerEvent: {}
+[34.699828] (-) TimerEvent: {}
+[34.804926] (-) TimerEvent: {}
+[34.909993] (-) TimerEvent: {}
+[35.015055] (-) TimerEvent: {}
+[35.117950] (-) TimerEvent: {}
+[35.223184] (-) TimerEvent: {}
+[35.328271] (-) TimerEvent: {}
+[35.429186] (-) TimerEvent: {}
+[35.534251] (-) TimerEvent: {}
+[35.638968] (-) TimerEvent: {}
+[35.739795] (-) TimerEvent: {}
+[35.842985] (-) TimerEvent: {}
+[35.947955] (-) TimerEvent: {}
+[36.053029] (-) TimerEvent: {}
+[36.156051] (-) TimerEvent: {}
+[36.258537] (-) TimerEvent: {}
+[36.363603] (-) TimerEvent: {}
+[36.468661] (-) TimerEvent: {}
+[36.573734] (-) TimerEvent: {}
+[36.678802] (-) TimerEvent: {}
+[36.783900] (-) TimerEvent: {}
+[36.885384] (-) TimerEvent: {}
+[36.990512] (-) TimerEvent: {}
+[37.094259] (-) TimerEvent: {}
+[37.199358] (-) TimerEvent: {}
+[37.304436] (-) TimerEvent: {}
+[37.406042] (-) TimerEvent: {}
+[37.508489] (-) TimerEvent: {}
+[37.613559] (-) TimerEvent: {}
+[37.715336] (-) TimerEvent: {}
+[37.818675] (-) TimerEvent: {}
+[37.923842] (-) TimerEvent: {}
+[38.026384] (-) TimerEvent: {}
+[38.130114] (-) TimerEvent: {}
+[38.210418] (px4_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/px4_msgs__rosidl_generator_type_description.dir/all] Killed: 9\n'}
+[38.212576] (px4_msgs) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[38.212876] (px4_msgs) StderrLine: {'line': b'make: INTERNAL: Exiting with 9 jobserver tokens available; should be 8!\n'}
+[38.212958] (px4_msgs) CommandEnded: {'returncode': -9}
+[38.230303] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': -9}
+[38.231363] (-) TimerEvent: {}
+[38.231388] (scout_bot) JobSkipped: {'identifier': 'scout_bot'}
+[38.231408] (-) EventReactorShutdown: {}

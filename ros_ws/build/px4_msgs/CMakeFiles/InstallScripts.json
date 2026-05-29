@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs/cmake_install.cmake",
+		"/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs/px4_msgs__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

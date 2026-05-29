@@ -1,0 +1,13 @@
+CMake Error at CMakeLists.txt:153 (find_package):
+  Could not find a configuration file for package "fastcdr" that is
+  compatible with requested version "1".
+
+  The following configuration files were considered but not accepted:
+
+    /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/cmake/fastcdr/fastcdr-config.cmake, version: 2.2.7
+      The version found is not compatible with the version requested.
+
+
+
+-- Configuring incomplete, errors occurred!
+make: *** [cmake_check_build_system] Error 1

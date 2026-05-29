@@ -1,0 +1,54 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Unix Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake",
+			"cpack" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cpack",
+			"ctest" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/ctest",
+			"root" : "/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/share/cmake-4.3"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 4,
+			"minor" : 3,
+			"patch" : 2,
+			"string" : "4.3.2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-4a3749f50ce158c6d17b.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 10
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-colcon-cmake" : 
+		{
+			"codemodel-v2" : 
+			{
+				"jsonFile" : "codemodel-v2-4a3749f50ce158c6d17b.json",
+				"kind" : "codemodel",
+				"version" : 
+				{
+					"major" : 2,
+					"minor" : 10
+				}
+			}
+		}
+	}
+}

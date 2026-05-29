@@ -1,0 +1,228 @@
+[0.315s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/colcon', 'build', '--parallel-workers', '2'][0m
+[0.316s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x10209a660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x101fc3050>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x101fc3050>>)[0m
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/Users/eduardofelix/scout_bot_mac/ros_ws'
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.372s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.373s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.373s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.373s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.373s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.373s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.413s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.414s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.415s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Micro-XRCE-DDS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Micro-XRCE-DDS-Agent) by extension 'ignore_ament_install'
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Micro-XRCE-DDS-Agent) by extensions ['colcon_pkg']
+[0.416s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/Micro-XRCE-DDS-Agent) by extension 'colcon_pkg'
+[0.417s] [34mcolcon.colcon_metadata.metadata.colcon_pkg[0m [1;30mINFO[0m Setting type 'cmake' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[0.417s] [34mcolcon.colcon_metadata.metadata.colcon_pkg[0m [1;30mINFO[0m Setting name 'microxrcedds_agent' of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg
+[0.417s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/Micro-XRCE-DDS-Agent' with type 'cmake' and name 'microxrcedds_agent'[0m
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'ignore'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'colcon_meta'
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extensions ['ros']
+[0.418s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/px4_msgs) by extension 'ros'
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'[0m
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extension 'ignore'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extension 'ignore_ament_install'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extensions ['colcon_pkg']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extension 'colcon_pkg'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extensions ['colcon_meta']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extension 'colcon_meta'
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extensions ['ros']
+[0.423s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/scout_bot) by extension 'ros'
+[0.424s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/scout_bot' with type 'ros.ament_python' and name 'scout_bot'[0m
+[0.424s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.424s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.424s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.424s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.424s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.445s] [34mcolcon.colcon_metadata.metadata.colcon_pkg[0m [1;30mINFO[0m Updating descriptor of package 'src/Micro-XRCE-DDS-Agent' from colcon.pkg: {'name': 'microxrcedds_agent', 'type': 'cmake', 'dependencies': ['fastcdr', 'fastrtps'], 'cmake-args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']}
+[0.446s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'cmake_args' from command line to 'None'
+[0.446s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m overwrite package 'microxrcedds_agent' build argument 'cmake_args' from package metadata with '['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']' (before: 'None')
+[0.446s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'cmake_target' from command line to 'None'
+[0.446s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.446s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.446s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'microxrcedds_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'microxrcedds_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/eduardofelix/scout_bot_mac/ros_ws/install/microxrcedds_agent', 'merge_install': False, 'path': '/Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent', 'symlink_install': False, 'test_result_base': None}[0m
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs', 'merge_install': False, 'path': '/Users/eduardofelix/scout_bot_mac/ros_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'cmake_target' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'scout_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'scout_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot', 'merge_install': False, 'path': '/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot', 'symlink_install': False, 'test_result_base': None}[0m
+[0.447s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.448s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.448s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.448s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/px4_msgs'
+[0.452s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.460s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent'
+[0.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.476s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake /Users/eduardofelix/scout_bot_mac/ros_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs[0m
+[0.481s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/Users/eduardofelix/scout_bot_mac/ros_ws/install/microxrcedds_agent[0m
+[2.590s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent' returned '0': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake /Users/eduardofelix/scout_bot_mac/ros_ws/src/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/Users/eduardofelix/scout_bot_mac/ros_ws/install/microxrcedds_agent[0m
+[2.593s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8[0m
+[6.150s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake /Users/eduardofelix/scout_bot_mac/ros_ws/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs[0m
+[6.153s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs -- -j8 -l8[0m
+[25.616s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs -- -j8 -l8[0m
+[25.660s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --install /Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs[0m
+[27.963s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(px4_msgs)
+[27.964s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/.pixi/envs/default PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --install /Users/eduardofelix/scout_bot_mac/ros_ws/build/px4_msgs[0m
+[27.970s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs' for CMake module files
+[27.972s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs' for CMake config files
+[27.991s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[27.991s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[27.993s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[27.994s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[27.995s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib'
+[27.996s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'dyld_library_path')
+[27.996s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/dyld_library_path.ps1'
+[27.996s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/dyld_library_path.dsv'
+[27.997s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/dyld_library_path.sh'
+[27.997s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/bin'
+[27.997s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[27.998s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages'
+[27.998s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'pythonpath')
+[27.998s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[27.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[27.999s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[28.000s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/bin'
+[28.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[28.002s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[28.003s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[28.004s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[28.005s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[28.007s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[28.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(px4_msgs)
+[28.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs' for CMake module files
+[28.009s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs' for CMake config files
+[28.020s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[28.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[28.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[28.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[28.022s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib'
+[28.022s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'dyld_library_path')
+[28.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/dyld_library_path.ps1'
+[28.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/dyld_library_path.dsv'
+[28.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/dyld_library_path.sh'
+[28.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/bin'
+[28.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[28.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages'
+[28.024s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('px4_msgs', 'pythonpath')
+[28.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[28.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[28.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[28.029s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/bin'
+[28.029s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[28.030s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[28.031s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[28.031s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[28.032s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[28.032s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[28.033s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot' with build type 'ament_python'
+[28.033s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('scout_bot', 'ament_prefix_path')
+[28.034s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/hook/ament_prefix_path.ps1'
+[28.036s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/hook/ament_prefix_path.dsv'
+[28.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/hook/ament_prefix_path.sh'
+[28.037s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.037s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[28.472s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot'
+[28.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.472s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[29.102s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot': AMENT_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs PIXI_PROMPT=(scout_bot_mac) PYTHONPATH=/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/prefix_override:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages:/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scout_bot build --build-base /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build install --record /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/install.log --single-version-externally-managed install_data[0m
+[29.899s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot' for CMake module files
+[29.900s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot' returned '0': AMENT_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs PIXI_PROMPT=(scout_bot_mac) PYTHONPATH=/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/prefix_override:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages:/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scout_bot build --build-base /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build install --record /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/install.log --single-version-externally-managed install_data[0m
+[29.900s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot' for CMake config files
+[29.902s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib'
+[29.902s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/bin'
+[29.902s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/pkgconfig/scout_bot.pc'
+[29.903s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages'
+[29.903s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('scout_bot', 'pythonpath')
+[29.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/hook/pythonpath.ps1'
+[29.910s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/hook/pythonpath.dsv'
+[29.911s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/hook/pythonpath.sh'
+[29.912s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/bin'
+[29.912s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(scout_bot)
+[29.913s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/package.ps1'
+[29.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/package.dsv'
+[29.914s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/package.sh'
+[29.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/package.bash'
+[29.915s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/package.zsh'
+[29.916s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/colcon-core/packages/scout_bot)
+[37.142s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent' returned '2': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8[0m
+[37.153s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[37.153s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[37.153s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '2'[0m
+[37.153s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[37.154s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[37.154s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/local_setup.ps1'
+[37.156s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/Users/eduardofelix/scout_bot_mac/ros_ws/install/_local_setup_util_ps1.py'
+[37.158s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/setup.ps1'
+[37.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/local_setup.sh'
+[37.160s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/Users/eduardofelix/scout_bot_mac/ros_ws/install/_local_setup_util_sh.py'
+[37.161s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/setup.sh'
+[37.162s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/local_setup.bash'
+[37.162s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/setup.bash'
+[37.163s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/local_setup.zsh'
+[37.164s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/eduardofelix/scout_bot_mac/ros_ws/install/setup.zsh'

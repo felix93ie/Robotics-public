@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/foonathan_memory_node_size_debugger.dir/node_size_debugger.cpp.o -o nodesize_dbg

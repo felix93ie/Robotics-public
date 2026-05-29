@@ -1,0 +1,31 @@
+[0.920s] Invoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot': AMENT_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs PIXI_PROMPT=(scout_bot_mac) PYTHONPATH=/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/prefix_override:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages:/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=2 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scout_bot build --build-base /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build install --record /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/install.log --single-version-externally-managed install_data
+[1.219s] running egg_info
+[1.237s] writing ../../build/scout_bot/scout_bot.egg-info/PKG-INFO
+[1.238s] writing dependency_links to ../../build/scout_bot/scout_bot.egg-info/dependency_links.txt
+[1.238s] writing entry points to ../../build/scout_bot/scout_bot.egg-info/entry_points.txt
+[1.239s] writing requirements to ../../build/scout_bot/scout_bot.egg-info/requires.txt
+[1.239s] writing top-level names to ../../build/scout_bot/scout_bot.egg-info/top_level.txt
+[1.280s] reading manifest file '../../build/scout_bot/scout_bot.egg-info/SOURCES.txt'
+[1.281s] writing manifest file '../../build/scout_bot/scout_bot.egg-info/SOURCES.txt'
+[1.281s] running build
+[1.281s] running build_py
+[1.282s] copying scout_bot/__init__.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+[1.282s] copying scout_bot/offboard_control.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+[1.282s] copying scout_bot/tmc_node.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+[1.283s] running install
+[1.290s] running install_lib
+[1.309s] copying /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot/tmc_node.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot
+[1.310s] byte-compiling /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot/tmc_node.py to tmc_node.cpython-312.pyc
+[1.312s] running install_data
+[1.312s] copying resource/scout_bot -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/ament_index/resource_index/packages
+[1.312s] copying package.xml -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot
+[1.313s] creating /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/config
+[1.313s] copying config/mission_config.yaml -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot/config
+[1.313s] running install_egg_info
+[1.332s] removing '/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot-0.0.0-py3.12.egg-info' (and everything under it)
+[1.334s] Copying ../../build/scout_bot/scout_bot.egg-info to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot-0.0.0-py3.12.egg-info
+[1.338s] running install_scripts
+[1.452s] Installing offboard_control script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+[1.452s] Installing tmc_node script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+[1.453s] writing list of installed files to '/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/install.log'
+[1.477s] Invoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/src/scout_bot' returned '0': AMENT_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs PIXI_PROMPT=(scout_bot_mac) PYTHONPATH=/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/prefix_override:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages:/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=2 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scout_bot build --build-base /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build install --record /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/install.log --single-version-externally-managed install_data

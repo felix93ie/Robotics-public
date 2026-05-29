@@ -1,0 +1,19 @@
+# Hashes of file build rules.
+e065df7d3121cd22d31cfd48e1fae75a CMakeFiles/spdlog
+f61f40642266e03ba1b831466f9ffcf7 CMakeFiles/spdlog-complete
+e065df7d3121cd22d31cfd48e1fae75a CMakeFiles/uagent
+821325f29ca408e887387a1bdf8ce101 CMakeFiles/uagent-complete
+8bc1176aa69010153f19aa8ebc39c5f6 spdlog/src/spdlog-stamp/spdlog-build
+12d555f13bbc2081ca71c1724348c401 spdlog/src/spdlog-stamp/spdlog-configure
+c13753e02eeedc1702c58477983c3de5 spdlog/src/spdlog-stamp/spdlog-download
+4053775cc08ed1b1f00140a01fffa8a1 spdlog/src/spdlog-stamp/spdlog-install
+0491185bfb8ac231bbfa3937b8918ed6 spdlog/src/spdlog-stamp/spdlog-mkdir
+2c6c738e786d5d33cee8a6ed2ae577b3 spdlog/src/spdlog-stamp/spdlog-patch
+be1a87ab25706c32d591fc76d18fbb0a spdlog/src/spdlog-stamp/spdlog-update
+b95daf30c4fcfb63ebd66a5f3fb4410b uagent-prefix/src/uagent-stamp/uagent-build
+02a1496f746c6fc9f3346b5094909419 uagent-prefix/src/uagent-stamp/uagent-configure
+c2a8023ab8ffd16429784b69df71dc2f uagent-prefix/src/uagent-stamp/uagent-download
+f2ca1003013f52bab31be0a737ef2e90 uagent-prefix/src/uagent-stamp/uagent-install
+80f9fe5e3cb663de479079df86222ce1 uagent-prefix/src/uagent-stamp/uagent-mkdir
+d83cbba5f90bcc915bd158b5c71a350c uagent-prefix/src/uagent-stamp/uagent-patch
+4c6e1601be54a55eedb7137a6ad642fa uagent-prefix/src/uagent-stamp/uagent-update

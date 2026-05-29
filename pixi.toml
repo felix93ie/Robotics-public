@@ -1,0 +1,37 @@
+[workspace]
+authors = ["Eddie <efelixcastano@seattleu.edu>"]
+channels = ["conda-forge", "https://prefix.dev/robostack-jazzy"]
+name = "scout_bot_mac"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-jazzy-desktop = ">=0.11.0,<0.12"
+gz-harmonic = ">=1.0.0,<2"
+cmake = ">=4.3.2,<5"
+colcon-common-extensions = ">=0.3.0,<0.4"
+git = ">=2.54.0,<3"
+ros-jazzy-rosidl-default-generators = ">=1.6.0,<2"
+ros-jazzy-rosidl-default-runtime = ">=1.6.0,<2"
+ros-jazzy-rosidl-typesupport-fastrtps-c = ">=3.6.3,<4"
+ros-jazzy-rosidl-typesupport-fastrtps-cpp = ">=3.6.3,<4"
+ros-jazzy-rosidl-adapter = ">=4.6.7,<5"
+numpy = ">=2.4.3,<3"
+asio = ">=1.36.0,<2"
+ros-jazzy-ros-gz = "*"
+ros-jazzy-vision-msgs = "*"
+ultralytics = "*"
+pytorch = ">=2.10.0,<3"
+torchvision = ">=0.26.0,<0.27"
+ros-jazzy-rqt-image-view = ">=1.3.0,<2"
+
+[pypi-dependencies]
+kconfiglib = ">=14.1.0, <15"
+jinja2 = ">=3.1.6, <4"
+jsonschema = ">=4.26.0, <5"
+pyros-genmsg = ">=0.5.8, <0.6"
+packaging = "*"
+pyyaml = "*"
+cerberus = ">=1.3.8, <2"

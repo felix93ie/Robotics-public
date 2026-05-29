@@ -1,0 +1,1 @@
+cmd='/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake;-C/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/uagent_initial_cache.cmake;-DUAGENT_USE_INTERNAL_GTEST:BOOL=OFF;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

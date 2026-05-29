@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastdds"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastdds.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastdds-complete.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-build.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-configure.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-download.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-install.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-mkdir.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-patch.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-test.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastdds/src/fastdds-stamp/fastdds-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fastdds"
+		],
+		"name" : "fastdds"
+	}
+}

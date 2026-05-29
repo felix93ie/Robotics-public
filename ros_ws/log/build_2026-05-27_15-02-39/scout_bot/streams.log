@@ -1,0 +1,19 @@
+[0.508s] Invoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot': AMENT_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs PIXI_PROMPT=(scout_bot_mac) PYTHONPATH=/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/prefix_override:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages:/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build --no-deps symlink_data
+[0.717s] running develop
+[0.847s] running egg_info
+[0.860s] writing scout_bot.egg-info/PKG-INFO
+[0.860s] writing dependency_links to scout_bot.egg-info/dependency_links.txt
+[0.860s] writing entry points to scout_bot.egg-info/entry_points.txt
+[0.860s] writing requirements to scout_bot.egg-info/requires.txt
+[0.860s] writing top-level names to scout_bot.egg-info/top_level.txt
+[0.883s] reading manifest file 'scout_bot.egg-info/SOURCES.txt'
+[0.884s] writing manifest file 'scout_bot.egg-info/SOURCES.txt'
+[0.896s] running build_ext
+[0.896s] Creating /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout-bot.egg-link (link to .)
+[0.896s] Installing offboard_control script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+[0.897s] Installing tmc_node script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+[0.897s] Installing yolo_node script to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/scout_bot
+[0.897s] 
+[0.897s] Installed /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot
+[0.897s] running symlink_data
+[0.914s] Invoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot' returned '0': AMENT_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs PIXI_PROMPT=(scout_bot_mac) PYTHONPATH=/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/prefix_override:/Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages:/Users/eduardofelix/scout_bot_mac/ros_ws/install/px4_msgs/lib/python3.12/site-packages:${PYTHONPATH} SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/python3.12 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build --no-deps symlink_data

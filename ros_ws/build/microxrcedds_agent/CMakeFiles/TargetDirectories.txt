@@ -1,0 +1,4 @@
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/CMakeFiles/spdlog.dir
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/CMakeFiles/uagent.dir
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/CMakeFiles/edit_cache.dir
+/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent/CMakeFiles/rebuild_cache.dir

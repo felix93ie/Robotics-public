@@ -1,0 +1,16 @@
+-- Found TinyXML2: /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/cmake/tinyxml2
+-- Found OpenSSL: /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/libcrypto.dylib (found version "3.6.2")
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring done (4.5s)
+-- Generating done (0.4s)
+-- Build files have been written to: /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent
+[  2%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o
+[  4%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o
+[  6%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o
+[ 10%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o
+[ 10%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o
+[ 12%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o
+[ 14%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o
+[ 16%] Building CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o

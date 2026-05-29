@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/spdlog
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/spdlog.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/spdlog-complete.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/spdlog/src/spdlog-stamp/spdlog-build.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/spdlog/src/spdlog-stamp/spdlog-configure.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/spdlog/src/spdlog-stamp/spdlog-download.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/spdlog/src/spdlog-stamp/spdlog-install.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/spdlog/src/spdlog-stamp/spdlog-mkdir.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/spdlog/src/spdlog-stamp/spdlog-patch.rule
+/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/spdlog/src/spdlog-stamp/spdlog-update.rule

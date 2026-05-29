@@ -1,0 +1,15 @@
+[0.023s] Invoking command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8
+[0.439s] CMake Error at CMakeLists.txt:153 (find_package):
+[0.439s]   Could not find a configuration file for package "fastcdr" that is
+[0.440s]   compatible with requested version "1".
+[0.440s] 
+[0.440s]   The following configuration files were considered but not accepted:
+[0.440s] 
+[0.440s]     /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/lib/cmake/fastcdr/fastcdr-config.cmake, version: 2.2.7
+[0.440s]       The version found is not compatible with the version requested.
+[0.440s] 
+[0.440s] 
+[0.440s] 
+[0.441s] -- Configuring incomplete, errors occurred!
+[0.448s] make: *** [cmake_check_build_system] Error 1
+[0.450s] Invoked command in '/Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent' returned '2': PIXI_PROMPT=(scout_bot_mac) SHLVL=1 XPC_SERVICE_NAME=0 _=/usr/bin/env /Users/eduardofelix/scout_bot_mac/.pixi/envs/default/bin/cmake --build /Users/eduardofelix/scout_bot_mac/ros_ws/build/microxrcedds_agent -- -j8 -l8

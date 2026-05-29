@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/scout_bot/scout_bot.egg-info
+writing ../../build/scout_bot/scout_bot.egg-info/PKG-INFO
+writing dependency_links to ../../build/scout_bot/scout_bot.egg-info/dependency_links.txt
+writing requirements to ../../build/scout_bot/scout_bot.egg-info/requires.txt
+writing top-level names to ../../build/scout_bot/scout_bot.egg-info/top_level.txt
+writing manifest file '../../build/scout_bot/scout_bot.egg-info/SOURCES.txt'
+reading manifest file '../../build/scout_bot/scout_bot.egg-info/SOURCES.txt'
+writing manifest file '../../build/scout_bot/scout_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+copying scout_bot/__init__.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+copying scout_bot/offboard_control.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot
+running install
+running install_lib
+creating /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot
+copying /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot/__init__.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot
+copying /Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/build/lib/scout_bot/offboard_control.py -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot
+byte-compiling /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot/__init__.py to __init__.cpython-312.pyc
+byte-compiling /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot/offboard_control.py to offboard_control.cpython-312.pyc
+running install_data
+creating /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/ament_index/resource_index/packages
+copying resource/scout_bot -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/ament_index/resource_index/packages
+copying package.xml -> /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/share/scout_bot
+running install_egg_info
+Copying ../../build/scout_bot/scout_bot.egg-info to /Users/eduardofelix/scout_bot_mac/ros_ws/install/scout_bot/lib/python3.12/site-packages/scout_bot-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/Users/eduardofelix/scout_bot_mac/ros_ws/build/scout_bot/install.log'

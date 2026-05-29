@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastcdr"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastcdr.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/CMakeFiles/fastcdr-complete.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-build.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-configure.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-download.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-install.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-mkdir.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-patch.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-test.rule"
+		},
+		{
+			"file" : "/Users/eduardofelix/scout_bot_mac/MicroXRCEAgent_standalone/build/fastcdr/src/fastcdr-stamp/fastcdr-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fastcdr"
+		],
+		"name" : "fastcdr"
+	}
+}
