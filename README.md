@@ -14,7 +14,8 @@ The system is managed through a built-in real-time HTTP Web Cockpit Dashboard, a
 
 The source code for this project is hosted on GitHub:
 
-[https://github.com/felix93ie/Robotics](https://github.com/felix93ie/Robotics)
+The above link points to the **public** read‑only snapshot of the project.
+
 
 > [Context]
 > **Squad-Level Abstraction**: AirScout eliminates the need for highly trained drone pilots. By abstracting away flight mechanics and active collision avoidance behind simple military grid coordinate inputs (MGRS) and click-to-execute tactics, the system can be deployed directly by any infantry squad or platoon element with near-zero training.
